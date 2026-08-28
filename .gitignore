@@ -1,0 +1,14 @@
+node_modules
+.next
+.venv
+.pydeps
+__pycache__
+*.pyc
+.env
+.env*.local
+prisma/*.db
+prisma/*.db-journal
+data/*-raw.json
+public/maps/*-debug.png
+.DS_Store
+*.log

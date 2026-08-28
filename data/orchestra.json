@@ -1,0 +1,9122 @@
+[
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "DD",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 52
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "CC",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 53
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "BB",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "BB",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "BB",
+    "number": 8,
+    "type": "companion",
+    "price": 50,
+    "x": 8,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "BB",
+    "number": 6,
+    "type": "companion",
+    "price": 50,
+    "x": 9,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "BB",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "BB",
+    "number": 2,
+    "type": "companion",
+    "price": 50,
+    "x": 11,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "BB",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 54
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "AA",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "AA",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "AA",
+    "number": 1,
+    "type": "companion",
+    "price": 50,
+    "x": 38,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "AA",
+    "number": 3,
+    "type": "companion",
+    "price": 50,
+    "x": 39,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "AA",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "AA",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "AA",
+    "number": 9,
+    "type": "companion",
+    "price": 50,
+    "x": 42,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "AA",
+    "number": 11,
+    "type": "companion",
+    "price": 50,
+    "x": 43,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "AA",
+    "number": 13,
+    "type": "companion",
+    "price": 50,
+    "x": 44,
+    "y": 55
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Z",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Z",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 5,
+    "type": "companion",
+    "price": 50,
+    "x": 40,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Z",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 56
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Y",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Y",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Y",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 57
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "X",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "X",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "X",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 58
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "W",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "W",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "W",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 59
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "V",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "V",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "V",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 60
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "U",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "U",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "U",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 61
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "T",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "T",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "T",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 62
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "S",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "S",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "S",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 63
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "R",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "R",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "R",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 64
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 18,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "Q",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "Q",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 1,
+    "type": "transfer",
+    "price": 50,
+    "x": 38,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 15,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "Q",
+    "number": 17,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 65
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 16,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 14,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 9,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 10,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "P",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "P",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 66
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "O",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 67
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 18,
+    "type": "standard",
+    "price": 100,
+    "x": 3,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 4,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 5,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 8,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "N",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 11,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 117,
+    "type": "standard",
+    "price": 100,
+    "x": 16,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 116,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 115,
+    "type": "standard",
+    "price": 100,
+    "x": 18,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 19,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 113,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "N",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 32,
+    "y": 68
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 18,
+    "type": "standard",
+    "price": 100,
+    "x": 3,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 4,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 5,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 8,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "M",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 11,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 118,
+    "type": "standard",
+    "price": 100,
+    "x": 15,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 117,
+    "type": "standard",
+    "price": 100,
+    "x": 16,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 116,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 115,
+    "type": "standard",
+    "price": 100,
+    "x": 18,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 19,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 113,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 32,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "M",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 33,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "M",
+    "number": 1,
+    "type": "companion",
+    "price": 100,
+    "x": 38,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "M",
+    "number": 3,
+    "type": "companion",
+    "price": 100,
+    "x": 39,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "M",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 40,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "M",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 41,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "M",
+    "number": 9,
+    "type": "companion",
+    "price": 100,
+    "x": 42,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "M",
+    "number": 11,
+    "type": "companion",
+    "price": 100,
+    "x": 43,
+    "y": 69
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 18,
+    "type": "standard",
+    "price": 100,
+    "x": 3,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 4,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 5,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 8,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "L",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 11,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 117,
+    "type": "standard",
+    "price": 100,
+    "x": 16,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 116,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 115,
+    "type": "standard",
+    "price": 100,
+    "x": 18,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 19,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 113,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "L",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 32,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 38,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 39,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 5,
+    "type": "companion",
+    "price": 100,
+    "x": 40,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 7,
+    "type": "companion",
+    "price": 100,
+    "x": 41,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 42,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 43,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "L",
+    "number": 17,
+    "type": "standard",
+    "price": 100,
+    "x": 46,
+    "y": 70
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 4,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 5,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 8,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "K",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 11,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 116,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 115,
+    "type": "standard",
+    "price": 100,
+    "x": 18,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 19,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 113,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "K",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 32,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 38,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 39,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 40,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 41,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 42,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 43,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "K",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 71
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 4,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 5,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 8,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "J",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 11,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 115,
+    "type": "standard",
+    "price": 100,
+    "x": 18,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 19,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 113,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "J",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 32,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 38,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 39,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 40,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 41,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 42,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 43,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "J",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 72
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 4,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 5,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 8,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "H",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 11,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 18,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 113,
+    "type": "standard",
+    "price": 100,
+    "x": 19,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "H",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 38,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 39,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 40,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 41,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 42,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 43,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "H",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 73
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 4,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 5,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 115,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 114,
+    "type": "standard",
+    "price": 100,
+    "x": 18,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 113,
+    "type": "standard",
+    "price": 100,
+    "x": 19,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "G",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 38,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 39,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 40,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 41,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 42,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 43,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "G",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "F",
+    "number": 14,
+    "type": "standard",
+    "price": 150,
+    "x": 5,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "F",
+    "number": 12,
+    "type": "standard",
+    "price": 150,
+    "x": 6,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "F",
+    "number": 10,
+    "type": "standard",
+    "price": 150,
+    "x": 7,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "F",
+    "number": 8,
+    "type": "standard",
+    "price": 150,
+    "x": 8,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "F",
+    "number": 6,
+    "type": "standard",
+    "price": 150,
+    "x": 9,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "F",
+    "number": 4,
+    "type": "standard",
+    "price": 150,
+    "x": 10,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "F",
+    "number": 2,
+    "type": "standard",
+    "price": 150,
+    "x": 11,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 114,
+    "type": "standard",
+    "price": 150,
+    "x": 18,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 113,
+    "type": "standard",
+    "price": 150,
+    "x": 19,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 112,
+    "type": "standard",
+    "price": 150,
+    "x": 20,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 111,
+    "type": "standard",
+    "price": 150,
+    "x": 21,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 110,
+    "type": "standard",
+    "price": 150,
+    "x": 22,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 109,
+    "type": "standard",
+    "price": 150,
+    "x": 23,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 108,
+    "type": "standard",
+    "price": 150,
+    "x": 24,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 107,
+    "type": "standard",
+    "price": 150,
+    "x": 25,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 106,
+    "type": "standard",
+    "price": 150,
+    "x": 26,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 105,
+    "type": "standard",
+    "price": 150,
+    "x": 27,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 104,
+    "type": "standard",
+    "price": 150,
+    "x": 28,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 103,
+    "type": "standard",
+    "price": 150,
+    "x": 29,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 102,
+    "type": "standard",
+    "price": 150,
+    "x": 30,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "F",
+    "number": 101,
+    "type": "standard",
+    "price": 150,
+    "x": 31,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "F",
+    "number": 1,
+    "type": "standard",
+    "price": 150,
+    "x": 38,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "F",
+    "number": 3,
+    "type": "standard",
+    "price": 150,
+    "x": 39,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "F",
+    "number": 5,
+    "type": "standard",
+    "price": 150,
+    "x": 40,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "F",
+    "number": 7,
+    "type": "standard",
+    "price": 150,
+    "x": 41,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "F",
+    "number": 9,
+    "type": "standard",
+    "price": 150,
+    "x": 42,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "F",
+    "number": 11,
+    "type": "standard",
+    "price": 150,
+    "x": 43,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "F",
+    "number": 13,
+    "type": "standard",
+    "price": 150,
+    "x": 44,
+    "y": 75
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "E",
+    "number": 14,
+    "type": "standard",
+    "price": 150,
+    "x": 5,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "E",
+    "number": 12,
+    "type": "standard",
+    "price": 150,
+    "x": 6,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "E",
+    "number": 10,
+    "type": "standard",
+    "price": 150,
+    "x": 7,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "E",
+    "number": 8,
+    "type": "standard",
+    "price": 150,
+    "x": 8,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "E",
+    "number": 6,
+    "type": "standard",
+    "price": 150,
+    "x": 9,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "E",
+    "number": 4,
+    "type": "standard",
+    "price": 150,
+    "x": 10,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "E",
+    "number": 2,
+    "type": "standard",
+    "price": 150,
+    "x": 11,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 113,
+    "type": "standard",
+    "price": 150,
+    "x": 18,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 112,
+    "type": "standard",
+    "price": 150,
+    "x": 19,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 111,
+    "type": "standard",
+    "price": 150,
+    "x": 20,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 110,
+    "type": "standard",
+    "price": 150,
+    "x": 21,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 109,
+    "type": "standard",
+    "price": 150,
+    "x": 22,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 108,
+    "type": "standard",
+    "price": 150,
+    "x": 23,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 107,
+    "type": "standard",
+    "price": 150,
+    "x": 24,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 106,
+    "type": "standard",
+    "price": 150,
+    "x": 25,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 105,
+    "type": "standard",
+    "price": 150,
+    "x": 26,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 104,
+    "type": "standard",
+    "price": 150,
+    "x": 27,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 103,
+    "type": "standard",
+    "price": 150,
+    "x": 28,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 102,
+    "type": "standard",
+    "price": 150,
+    "x": 29,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "E",
+    "number": 101,
+    "type": "standard",
+    "price": 150,
+    "x": 30,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "E",
+    "number": 1,
+    "type": "standard",
+    "price": 150,
+    "x": 38,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "E",
+    "number": 3,
+    "type": "standard",
+    "price": 150,
+    "x": 39,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "E",
+    "number": 5,
+    "type": "standard",
+    "price": 150,
+    "x": 40,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "E",
+    "number": 7,
+    "type": "standard",
+    "price": 150,
+    "x": 41,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "E",
+    "number": 9,
+    "type": "standard",
+    "price": 150,
+    "x": 42,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "E",
+    "number": 11,
+    "type": "standard",
+    "price": 150,
+    "x": 43,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "E",
+    "number": 13,
+    "type": "standard",
+    "price": 150,
+    "x": 44,
+    "y": 76
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "D",
+    "number": 14,
+    "type": "standard",
+    "price": 150,
+    "x": 5,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "D",
+    "number": 12,
+    "type": "standard",
+    "price": 150,
+    "x": 6,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "D",
+    "number": 10,
+    "type": "standard",
+    "price": 150,
+    "x": 7,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "D",
+    "number": 8,
+    "type": "standard",
+    "price": 150,
+    "x": 8,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "D",
+    "number": 6,
+    "type": "standard",
+    "price": 150,
+    "x": 9,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "D",
+    "number": 4,
+    "type": "standard",
+    "price": 150,
+    "x": 10,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "D",
+    "number": 2,
+    "type": "standard",
+    "price": 150,
+    "x": 11,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 112,
+    "type": "standard",
+    "price": 150,
+    "x": 19,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 111,
+    "type": "standard",
+    "price": 150,
+    "x": 20,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 110,
+    "type": "standard",
+    "price": 150,
+    "x": 21,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 109,
+    "type": "standard",
+    "price": 150,
+    "x": 22,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 108,
+    "type": "standard",
+    "price": 150,
+    "x": 23,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 107,
+    "type": "standard",
+    "price": 150,
+    "x": 24,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 106,
+    "type": "standard",
+    "price": 150,
+    "x": 25,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 105,
+    "type": "standard",
+    "price": 150,
+    "x": 26,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 104,
+    "type": "standard",
+    "price": 150,
+    "x": 27,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 103,
+    "type": "standard",
+    "price": 150,
+    "x": 28,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 102,
+    "type": "standard",
+    "price": 150,
+    "x": 29,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "D",
+    "number": 101,
+    "type": "standard",
+    "price": 150,
+    "x": 30,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "D",
+    "number": 1,
+    "type": "standard",
+    "price": 150,
+    "x": 38,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "D",
+    "number": 3,
+    "type": "standard",
+    "price": 150,
+    "x": 39,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "D",
+    "number": 5,
+    "type": "standard",
+    "price": 150,
+    "x": 40,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "D",
+    "number": 7,
+    "type": "standard",
+    "price": 150,
+    "x": 41,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "D",
+    "number": 9,
+    "type": "standard",
+    "price": 150,
+    "x": 42,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "D",
+    "number": 11,
+    "type": "standard",
+    "price": 150,
+    "x": 43,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "D",
+    "number": 13,
+    "type": "standard",
+    "price": 150,
+    "x": 44,
+    "y": 77
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "C",
+    "number": 14,
+    "type": "standard",
+    "price": 150,
+    "x": 5,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "C",
+    "number": 12,
+    "type": "standard",
+    "price": 150,
+    "x": 6,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "C",
+    "number": 10,
+    "type": "standard",
+    "price": 150,
+    "x": 7,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "C",
+    "number": 8,
+    "type": "standard",
+    "price": 150,
+    "x": 8,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "C",
+    "number": 6,
+    "type": "standard",
+    "price": 150,
+    "x": 9,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "C",
+    "number": 4,
+    "type": "standard",
+    "price": 150,
+    "x": 10,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "C",
+    "number": 2,
+    "type": "standard",
+    "price": 150,
+    "x": 11,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 112,
+    "type": "standard",
+    "price": 150,
+    "x": 19,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 111,
+    "type": "standard",
+    "price": 150,
+    "x": 20,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 110,
+    "type": "standard",
+    "price": 150,
+    "x": 21,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 109,
+    "type": "standard",
+    "price": 150,
+    "x": 22,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 108,
+    "type": "standard",
+    "price": 150,
+    "x": 23,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 107,
+    "type": "standard",
+    "price": 150,
+    "x": 24,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 106,
+    "type": "standard",
+    "price": 150,
+    "x": 25,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 105,
+    "type": "standard",
+    "price": 150,
+    "x": 26,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 104,
+    "type": "standard",
+    "price": 150,
+    "x": 27,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 103,
+    "type": "standard",
+    "price": 150,
+    "x": 28,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 102,
+    "type": "standard",
+    "price": 150,
+    "x": 29,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "C",
+    "number": 101,
+    "type": "transfer",
+    "price": 150,
+    "x": 30,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "C",
+    "number": 1,
+    "type": "standard",
+    "price": 150,
+    "x": 38,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "C",
+    "number": 3,
+    "type": "standard",
+    "price": 150,
+    "x": 39,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "C",
+    "number": 5,
+    "type": "standard",
+    "price": 150,
+    "x": 40,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "C",
+    "number": 7,
+    "type": "standard",
+    "price": 150,
+    "x": 41,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "C",
+    "number": 9,
+    "type": "standard",
+    "price": 150,
+    "x": 42,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "C",
+    "number": 11,
+    "type": "standard",
+    "price": 150,
+    "x": 43,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "C",
+    "number": 13,
+    "type": "standard",
+    "price": 150,
+    "x": 44,
+    "y": 78
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "B",
+    "number": 12,
+    "type": "standard",
+    "price": 150,
+    "x": 6,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "B",
+    "number": 10,
+    "type": "standard",
+    "price": 150,
+    "x": 7,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "B",
+    "number": 8,
+    "type": "standard",
+    "price": 150,
+    "x": 8,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "B",
+    "number": 6,
+    "type": "standard",
+    "price": 150,
+    "x": 9,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "B",
+    "number": 4,
+    "type": "standard",
+    "price": 150,
+    "x": 10,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "B",
+    "number": 2,
+    "type": "standard",
+    "price": 150,
+    "x": 11,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 110,
+    "type": "standard",
+    "price": 150,
+    "x": 20,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 109,
+    "type": "standard",
+    "price": 150,
+    "x": 21,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 108,
+    "type": "standard",
+    "price": 150,
+    "x": 22,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 107,
+    "type": "standard",
+    "price": 150,
+    "x": 23,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 106,
+    "type": "standard",
+    "price": 150,
+    "x": 24,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 105,
+    "type": "standard",
+    "price": 150,
+    "x": 25,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 104,
+    "type": "companion",
+    "price": 150,
+    "x": 26,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 103,
+    "type": "companion",
+    "price": 150,
+    "x": 27,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 102,
+    "type": "companion",
+    "price": 150,
+    "x": 28,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "B",
+    "number": 101,
+    "type": "standard",
+    "price": 150,
+    "x": 29,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "B",
+    "number": 1,
+    "type": "standard",
+    "price": 150,
+    "x": 38,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "B",
+    "number": 3,
+    "type": "companion",
+    "price": 150,
+    "x": 39,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "B",
+    "number": 5,
+    "type": "companion",
+    "price": 150,
+    "x": 40,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "B",
+    "number": 7,
+    "type": "companion",
+    "price": 150,
+    "x": 41,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "B",
+    "number": 9,
+    "type": "standard",
+    "price": 150,
+    "x": 42,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "B",
+    "number": 11,
+    "type": "standard",
+    "price": 150,
+    "x": 43,
+    "y": 79
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "A",
+    "number": 12,
+    "type": "standard",
+    "price": 150,
+    "x": 6,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "A",
+    "number": 10,
+    "type": "standard",
+    "price": 150,
+    "x": 7,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "A",
+    "number": 8,
+    "type": "standard",
+    "price": 150,
+    "x": 8,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "A",
+    "number": 6,
+    "type": "standard",
+    "price": 150,
+    "x": 9,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "A",
+    "number": 4,
+    "type": "standard",
+    "price": 150,
+    "x": 10,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "A",
+    "number": 2,
+    "type": "standard",
+    "price": 150,
+    "x": 11,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 109,
+    "type": "standard",
+    "price": 150,
+    "x": 21,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 108,
+    "type": "standard",
+    "price": 150,
+    "x": 22,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 107,
+    "type": "standard",
+    "price": 150,
+    "x": 23,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 106,
+    "type": "standard",
+    "price": 150,
+    "x": 24,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 105,
+    "type": "standard",
+    "price": 150,
+    "x": 25,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 104,
+    "type": "standard",
+    "price": 150,
+    "x": 26,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 103,
+    "type": "standard",
+    "price": 150,
+    "x": 27,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 102,
+    "type": "standard",
+    "price": 150,
+    "x": 28,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "A",
+    "number": 101,
+    "type": "standard",
+    "price": 150,
+    "x": 29,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "A",
+    "number": 1,
+    "type": "standard",
+    "price": 150,
+    "x": 38,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "A",
+    "number": 3,
+    "type": "standard",
+    "price": 150,
+    "x": 39,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "A",
+    "number": 5,
+    "type": "standard",
+    "price": 150,
+    "x": 40,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "A",
+    "number": 7,
+    "type": "standard",
+    "price": 150,
+    "x": 41,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "A",
+    "number": 9,
+    "type": "standard",
+    "price": 150,
+    "x": 42,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "A",
+    "number": 11,
+    "type": "standard",
+    "price": 150,
+    "x": 43,
+    "y": 80
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PB",
+    "number": 8,
+    "type": "standard",
+    "price": 175,
+    "x": 12,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PB",
+    "number": 6,
+    "type": "standard",
+    "price": 175,
+    "x": 13,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PB",
+    "number": 4,
+    "type": "standard",
+    "price": 175,
+    "x": 14,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PB",
+    "number": 2,
+    "type": "standard",
+    "price": 175,
+    "x": 15,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 108,
+    "type": "standard",
+    "price": 175,
+    "x": 21,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 107,
+    "type": "standard",
+    "price": 175,
+    "x": 22,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 106,
+    "type": "standard",
+    "price": 175,
+    "x": 23,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 105,
+    "type": "standard",
+    "price": 175,
+    "x": 24,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 104,
+    "type": "standard",
+    "price": 175,
+    "x": 25,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 103,
+    "type": "standard",
+    "price": 175,
+    "x": 26,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 102,
+    "type": "standard",
+    "price": 175,
+    "x": 27,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PB",
+    "number": 101,
+    "type": "standard",
+    "price": 175,
+    "x": 28,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PB",
+    "number": 1,
+    "type": "standard",
+    "price": 175,
+    "x": 34,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PB",
+    "number": 3,
+    "type": "standard",
+    "price": 175,
+    "x": 35,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PB",
+    "number": 5,
+    "type": "standard",
+    "price": 175,
+    "x": 36,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PB",
+    "number": 7,
+    "type": "standard",
+    "price": 175,
+    "x": 37,
+    "y": 82
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PA",
+    "number": 8,
+    "type": "standard",
+    "price": 175,
+    "x": 12,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PA",
+    "number": 6,
+    "type": "standard",
+    "price": 175,
+    "x": 13,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PA",
+    "number": 4,
+    "type": "standard",
+    "price": 175,
+    "x": 14,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "PA",
+    "number": 2,
+    "type": "standard",
+    "price": 175,
+    "x": 15,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 108,
+    "type": "standard",
+    "price": 175,
+    "x": 21,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 107,
+    "type": "standard",
+    "price": 175,
+    "x": 22,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 106,
+    "type": "standard",
+    "price": 175,
+    "x": 23,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 105,
+    "type": "standard",
+    "price": 175,
+    "x": 24,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 104,
+    "type": "standard",
+    "price": 175,
+    "x": 25,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 103,
+    "type": "standard",
+    "price": 175,
+    "x": 26,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 102,
+    "type": "standard",
+    "price": 175,
+    "x": 27,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "center",
+    "row": "PA",
+    "number": 101,
+    "type": "standard",
+    "price": 175,
+    "x": 28,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PA",
+    "number": 1,
+    "type": "standard",
+    "price": 175,
+    "x": 34,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PA",
+    "number": 3,
+    "type": "standard",
+    "price": 175,
+    "x": 35,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PA",
+    "number": 5,
+    "type": "standard",
+    "price": 175,
+    "x": 36,
+    "y": 83
+  },
+  {
+    "section": "orchestra",
+    "block": "right",
+    "row": "PA",
+    "number": 7,
+    "type": "standard",
+    "price": 175,
+    "x": 37,
+    "y": 83
+  }
+]

@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Seat {
+  id        String  @id
+  section   String
+  block     String
+  row       String
+  number    Int
+  type      String
+  price     Int
+  x         Float
+  y         Float
+  status    String  @default("available")
+  holdUntil DateTime?
+  registrations RegistrationSeat[]
+
+  @@index([section, status])
+}
+
+model Registration {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  createdAt DateTime @default(now())
+  seats     RegistrationSeat[]
+}
+
+model RegistrationSeat {
+  registrationId String
+  seatId         String
+  registration   Registration @relation(fields: [registrationId], references: [id], onDelete: Cascade)
+  seat           Seat         @relation(fields: [seatId], references: [id])
+
+  @@id([registrationId, seatId])
+  @@unique([seatId])
+}

@@ -1,0 +1,8962 @@
+[
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "CC",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "CC",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "CC",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "CC",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "CC",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "CC",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "CC",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "CC",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "CC",
+    "number": 127,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "CC",
+    "number": 129,
+    "type": "standard",
+    "price": 50,
+    "x": 41,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "CC",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 42,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "CC",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "CC",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "CC",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "CC",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "CC",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "CC",
+    "number": 13,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 8
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "BB",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "BB",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "BB",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "BB",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "BB",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "BB",
+    "number": 128,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "BB",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "BB",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "BB",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "BB",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "BB",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "BB",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "BB",
+    "number": 127,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "BB",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "BB",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "BB",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "BB",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "BB",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 9
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "AA",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "AA",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "AA",
+    "number": 128,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "AA",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "AA",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "AA",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "AA",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "AA",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "AA",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "AA",
+    "number": 127,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "AA",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "AA",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 10
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Z",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Z",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Z",
+    "number": 128,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Z",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Z",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Z",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Z",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Z",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Z",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Z",
+    "number": 127,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Z",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Z",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 11
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Y",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Y",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 130,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 128,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Y",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 25,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 26,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 127,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Y",
+    "number": 129,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Y",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Y",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 12
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "X",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "X",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 128,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "X",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "X",
+    "number": 127,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "X",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "X",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 13
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "W",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "W",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 128,
+    "type": "standard",
+    "price": 50,
+    "x": 11,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "W",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "W",
+    "number": 127,
+    "type": "standard",
+    "price": 50,
+    "x": 40,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "W",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "W",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 14
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "V",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "V",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "V",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "V",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "V",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "V",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "V",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "V",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "V",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "V",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "V",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "V",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "V",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "V",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 16
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "U",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "U",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "U",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "U",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "U",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "U",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "U",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "U",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "U",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "U",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "U",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "U",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "U",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "U",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 17
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "T",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "T",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "T",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "T",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "T",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "T",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "T",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "T",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "T",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "T",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "T",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "T",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "T",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "T",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 18
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "S",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "S",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "S",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "S",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "S",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "S",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "S",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "S",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "S",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "S",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "S",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "S",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "S",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "S",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 19
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "R",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "R",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "R",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "R",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "R",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "R",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "R",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "R",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "R",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "R",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "R",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "R",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "R",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "R",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 20
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Q",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Q",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Q",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Q",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Q",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "Q",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "Q",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "Q",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Q",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Q",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Q",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Q",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Q",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "Q",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 21
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "P",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "P",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "P",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "P",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "P",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "P",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "P",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "P",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "P",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "P",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "P",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "P",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "P",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "P",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 22
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "O",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "O",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "O",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "O",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "O",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "O",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "O",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "O",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "O",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "O",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "O",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "O",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "O",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "O",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 23
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "N",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "N",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "N",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "N",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "N",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "N",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "N",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "N",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "N",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "N",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "N",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "N",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "N",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "N",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 24
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "M",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "M",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "M",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "M",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "M",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "M",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "M",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "M",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "M",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "M",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "M",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "M",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "M",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "M",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 25
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "L",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "L",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "L",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "L",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "L",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "L",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "L",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "L",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "L",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "L",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "L",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "L",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "L",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "L",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 26
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "K",
+    "number": 12,
+    "type": "standard",
+    "price": 50,
+    "x": 3,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "K",
+    "number": 10,
+    "type": "standard",
+    "price": 50,
+    "x": 4,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "K",
+    "number": 8,
+    "type": "standard",
+    "price": 50,
+    "x": 5,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "K",
+    "number": 6,
+    "type": "standard",
+    "price": 50,
+    "x": 6,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "K",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "K",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "K",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "K",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "K",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "K",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "K",
+    "number": 5,
+    "type": "standard",
+    "price": 50,
+    "x": 45,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "K",
+    "number": 7,
+    "type": "standard",
+    "price": 50,
+    "x": 46,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "K",
+    "number": 9,
+    "type": "standard",
+    "price": 50,
+    "x": 47,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "K",
+    "number": 11,
+    "type": "standard",
+    "price": 50,
+    "x": 48,
+    "y": 27
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "J",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "J",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "J",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "J",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "J",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "J",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 28
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "H",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "H",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "H",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "H",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "H",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "H",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 29
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "G",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "G",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "G",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "G",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "G",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "G",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 30
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "F",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "F",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "F",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "F",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "F",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "F",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 31
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "E",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "E",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "E",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "E",
+    "number": 125,
+    "type": "standard",
+    "price": 50,
+    "x": 39,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "E",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "E",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 32
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "D",
+    "number": 4,
+    "type": "standard",
+    "price": 50,
+    "x": 7,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "D",
+    "number": 2,
+    "type": "standard",
+    "price": 50,
+    "x": 8,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 126,
+    "type": "standard",
+    "price": 50,
+    "x": 12,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 124,
+    "type": "standard",
+    "price": 50,
+    "x": 13,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 122,
+    "type": "standard",
+    "price": 50,
+    "x": 14,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 120,
+    "type": "standard",
+    "price": 50,
+    "x": 15,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 118,
+    "type": "standard",
+    "price": 50,
+    "x": 16,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 116,
+    "type": "standard",
+    "price": 50,
+    "x": 17,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 114,
+    "type": "standard",
+    "price": 50,
+    "x": 18,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 112,
+    "type": "standard",
+    "price": 50,
+    "x": 19,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 110,
+    "type": "standard",
+    "price": 50,
+    "x": 20,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 108,
+    "type": "standard",
+    "price": 50,
+    "x": 21,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 106,
+    "type": "standard",
+    "price": 50,
+    "x": 22,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 104,
+    "type": "standard",
+    "price": 50,
+    "x": 23,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "D",
+    "number": 102,
+    "type": "standard",
+    "price": 50,
+    "x": 24,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 101,
+    "type": "standard",
+    "price": 50,
+    "x": 27,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 103,
+    "type": "standard",
+    "price": 50,
+    "x": 28,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 105,
+    "type": "standard",
+    "price": 50,
+    "x": 29,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 107,
+    "type": "standard",
+    "price": 50,
+    "x": 30,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 109,
+    "type": "standard",
+    "price": 50,
+    "x": 31,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 111,
+    "type": "standard",
+    "price": 50,
+    "x": 32,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 113,
+    "type": "standard",
+    "price": 50,
+    "x": 33,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 115,
+    "type": "standard",
+    "price": 50,
+    "x": 34,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 117,
+    "type": "standard",
+    "price": 50,
+    "x": 35,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 119,
+    "type": "standard",
+    "price": 50,
+    "x": 36,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 121,
+    "type": "standard",
+    "price": 50,
+    "x": 37,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "D",
+    "number": 123,
+    "type": "standard",
+    "price": 50,
+    "x": 38,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "D",
+    "number": 1,
+    "type": "standard",
+    "price": 50,
+    "x": 43,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "D",
+    "number": 3,
+    "type": "standard",
+    "price": 50,
+    "x": 44,
+    "y": 33
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 18,
+    "type": "companion",
+    "price": 100,
+    "x": 8,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 12,
+    "type": "companion",
+    "price": 100,
+    "x": 11,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 14,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 15,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 16,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "C",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "C",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "C",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "C",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "C",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "C",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "C",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "C",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "C",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "C",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "C",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "C",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "C",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 34,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 35,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 36,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 37,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 11,
+    "type": "companion",
+    "price": 100,
+    "x": 40,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 41,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 42,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "C",
+    "number": 17,
+    "type": "companion",
+    "price": 100,
+    "x": 43,
+    "y": 36
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 20,
+    "type": "companion",
+    "price": 100,
+    "x": 8,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 18,
+    "type": "companion",
+    "price": 100,
+    "x": 9,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 16,
+    "type": "companion",
+    "price": 100,
+    "x": 10,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 14,
+    "type": "companion",
+    "price": 100,
+    "x": 11,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 12,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 13,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 14,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 15,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 16,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "B",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "B",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "B",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "B",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "B",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "B",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "B",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "B",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "B",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "B",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "B",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "B",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 34,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 35,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 36,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 37,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 38,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 39,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 13,
+    "type": "companion",
+    "price": 100,
+    "x": 40,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 15,
+    "type": "companion",
+    "price": 100,
+    "x": 41,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 17,
+    "type": "companion",
+    "price": 100,
+    "x": 42,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "B",
+    "number": 19,
+    "type": "companion",
+    "price": 100,
+    "x": 43,
+    "y": 37
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 18,
+    "type": "standard",
+    "price": 100,
+    "x": 9,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 10,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 11,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 12,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 13,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 14,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 15,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 16,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "left",
+    "row": "A",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 17,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "A",
+    "number": 112,
+    "type": "standard",
+    "price": 100,
+    "x": 20,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "A",
+    "number": 111,
+    "type": "standard",
+    "price": 100,
+    "x": 21,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "A",
+    "number": 110,
+    "type": "standard",
+    "price": 100,
+    "x": 22,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "A",
+    "number": 109,
+    "type": "standard",
+    "price": 100,
+    "x": 23,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "A",
+    "number": 108,
+    "type": "standard",
+    "price": 100,
+    "x": 24,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "A",
+    "number": 107,
+    "type": "standard",
+    "price": 100,
+    "x": 25,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "A",
+    "number": 106,
+    "type": "standard",
+    "price": 100,
+    "x": 26,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "A",
+    "number": 105,
+    "type": "standard",
+    "price": 100,
+    "x": 27,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "A",
+    "number": 104,
+    "type": "standard",
+    "price": 100,
+    "x": 28,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "A",
+    "number": 103,
+    "type": "standard",
+    "price": 100,
+    "x": 29,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "leftCenter",
+    "row": "A",
+    "number": 102,
+    "type": "standard",
+    "price": 100,
+    "x": 30,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "rightCenter",
+    "row": "A",
+    "number": 101,
+    "type": "standard",
+    "price": 100,
+    "x": 31,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 34,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 35,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 36,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 37,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 38,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 39,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 40,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 41,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "right",
+    "row": "A",
+    "number": 17,
+    "type": "standard",
+    "price": 100,
+    "x": 42,
+    "y": 38
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "B",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 40
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "A",
+    "number": 16,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 40
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "A",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 40
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "B",
+    "number": 15,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 40
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "B",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 41
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "A",
+    "number": 14,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 41
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "A",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 41
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "B",
+    "number": 13,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 41
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "B",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 42
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "A",
+    "number": 12,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 42
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "A",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 42
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "B",
+    "number": 11,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 42
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "B",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 43
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "A",
+    "number": 10,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 43
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "A",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 43
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "B",
+    "number": 9,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 43
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "B",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 44
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "A",
+    "number": 8,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 44
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "A",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 44
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "B",
+    "number": 7,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 44
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "B",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 45
+  },
+  {
+    "section": "balcony",
+    "block": "boxRight",
+    "row": "A",
+    "number": 6,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 45
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "A",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 45
+  },
+  {
+    "section": "balcony",
+    "block": "boxLeft",
+    "row": "B",
+    "number": 5,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 45
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxRight",
+    "row": "B",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 47
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxRight",
+    "row": "A",
+    "number": 4,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 47
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxLeft",
+    "row": "A",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 47
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxLeft",
+    "row": "B",
+    "number": 3,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 47
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxRight",
+    "row": "B",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 6,
+    "y": 48
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxRight",
+    "row": "A",
+    "number": 2,
+    "type": "standard",
+    "price": 100,
+    "x": 7,
+    "y": 48
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxLeft",
+    "row": "A",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 44,
+    "y": 48
+  },
+  {
+    "section": "balcony",
+    "block": "vipBoxLeft",
+    "row": "B",
+    "number": 1,
+    "type": "standard",
+    "price": 100,
+    "x": 45,
+    "y": 48
+  }
+]
