@@ -12,3 +12,4 @@ data/*-raw.json
 public/maps/*-debug.png
 .DS_Store
 *.log
+tsconfig.tsbuildinfo

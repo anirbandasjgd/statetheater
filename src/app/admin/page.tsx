@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { formatPrice, seatLabel } from "@/lib/seats";
+import { formatPrice, seatLabel, type Section } from "@/lib/seats";
 
 type Row = {
   id: string;
@@ -12,7 +12,7 @@ type Row = {
   total: number;
   seats: {
     id: string;
-    section: string;
+    section: Section;
     block: string;
     row: string;
     number: number;
