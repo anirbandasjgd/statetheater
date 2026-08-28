@@ -1,5 +1,10 @@
 import { PrismaClient } from "@prisma/client";
 
+if (!process.env.DATABASE_URL) {
+  const mount = process.env.RAILWAY_VOLUME_MOUNT_PATH?.replace(/\/$/, "");
+  process.env.DATABASE_URL = mount ? `file:${mount}/prod.db` : "file:./dev.db";
+}
+
 const globalForPrisma = globalThis as unknown as { prisma?: PrismaClient };
 
 export const prisma =

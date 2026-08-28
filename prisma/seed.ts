@@ -2,6 +2,11 @@ import { PrismaClient } from "@prisma/client";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
+if (!process.env.DATABASE_URL) {
+  const mount = process.env.RAILWAY_VOLUME_MOUNT_PATH?.replace(/\/$/, "");
+  process.env.DATABASE_URL = mount ? `file:${mount}/prod.db` : "file:./dev.db";
+}
+
 const prisma = new PrismaClient();
 
 type RawSeat = {

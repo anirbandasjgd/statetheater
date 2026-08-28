@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node scripts/start-production.mjs",
     "lint": "next lint",
-    "postinstall": "prisma generate",
+    "postinstall": "node scripts/ensure-db-url.mjs npx prisma generate",
     "db:push": "prisma db push",
     "db:seed": "node --experimental-strip-types prisma/seed.ts",
     "db:reset": "prisma db push --force-reset && node --experimental-strip-types prisma/seed.ts",
