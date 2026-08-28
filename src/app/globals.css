@@ -29,6 +29,7 @@ textarea {
   scrollbar-gutter: stable;
   scrollbar-width: thin;
   scrollbar-color: #d4a24a #2a1c18;
+  -webkit-overflow-scrolling: touch;
 }
 
 .seat-map-scroll::-webkit-scrollbar {

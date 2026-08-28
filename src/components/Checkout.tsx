@@ -50,12 +50,15 @@ export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
   }
 
   return (
-    <aside className="h-fit rounded-xl border border-[#3a2a22] bg-[#1d1412] p-5">
+    <aside
+      id="checkout"
+      className="h-fit rounded-xl border border-[#3a2a22] bg-[#1d1412] p-5 max-lg:max-h-[42svh] max-lg:shrink-0 max-lg:overflow-y-auto max-lg:overscroll-contain max-lg:rounded-t-2xl max-lg:pb-[max(1.25rem,env(safe-area-inset-bottom))] lg:sticky lg:top-6"
+    >
       <h2 className="text-lg text-[#f0d49a]">Your seats</h2>
       {seats.length === 0 ? (
         <p className="mt-3 text-sm text-[#f4ece0]/60">Select one or more seats on the map.</p>
       ) : (
-        <ul className="mt-3 max-h-56 space-y-2 overflow-auto text-sm">
+        <ul className="mt-3 max-h-20 space-y-2 overflow-auto text-sm lg:max-h-56">
           {seats.map((seat) => (
             <li key={seat.id} className="flex items-start justify-between gap-2">
               <span>
@@ -80,7 +83,7 @@ export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
         </button>
       ) : null}
 
-      <form className="mt-6 space-y-3" onSubmit={submit}>
+      <form id="register" className="mt-6 space-y-3" onSubmit={submit}>
         <h3 className="text-sm tracking-wide text-[#d4a24a] uppercase">Register</h3>
         <Field label="Name" value={name} onChange={setName} autoComplete="name" required />
         <Field label="Email" value={email} onChange={setEmail} type="email" autoComplete="email" required />
@@ -118,12 +121,13 @@ function Field({
     <label className="block text-xs text-[#f0d49a]/80">
       {label}
       <input
-        className="mt-1 w-full rounded-md border border-[#3a2a22] bg-[#140c0c] px-3 py-2 text-sm text-[#f4ece0] outline-none focus:border-[#d4a24a]"
+        className="mt-1 w-full rounded-md border border-[#3a2a22] bg-[#140c0c] px-3 py-2 text-base text-[#f4ece0] outline-none focus:border-[#d4a24a]"
         value={value}
         onChange={(e) => onChange(e.target.value)}
         type={type}
         autoComplete={autoComplete}
         required={required}
+        onFocus={(e) => e.currentTarget.scrollIntoView({ block: "center", behavior: "smooth" })}
       />
     </label>
   );
