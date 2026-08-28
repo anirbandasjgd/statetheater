@@ -41,6 +41,9 @@ export default function AdminPage() {
         <div className="mt-2 flex items-end justify-between gap-4">
           <h1 className="text-2xl text-[#f4ece0]">Registrations</h1>
           <div className="flex items-center gap-4">
+            <a href="/admin/database" className="text-sm text-[#f0d49a]/80 hover:text-[#f0d49a]">
+              Database
+            </a>
             <a href="/" className="text-sm text-[#f0d49a]/80 hover:text-[#f0d49a]">
               Back to map
             </a>
