@@ -57,17 +57,17 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
   const colCount = layout.cols + 2;
 
   return (
-    <div className="seat-map-scroll h-full max-h-[calc(100dvh-13.5rem)] overflow-auto rounded-xl border border-[#3a2a22] bg-[#1a1010] px-4 py-4 max-lg:max-h-none [overflow-anchor:none] [overscroll-behavior:contain] lg:px-6">
+    <div className="seat-map-scroll h-full max-h-[calc(100dvh-13.5rem)] overflow-auto rounded-xl border border-[#3a2a22] bg-[#1a1010] px-2 py-2 max-lg:max-h-none [overflow-anchor:none] [overscroll-behavior:contain] lg:px-6 lg:py-4">
       {section === "balcony" ? (
         <p className="mb-3 text-center text-xs tracking-[0.25em] text-[#d4a24a] uppercase">Balcony</p>
       ) : null}
       <div
-        className="mx-auto w-max"
+        className="seat-grid mx-auto w-max"
         style={{
           display: "grid",
-          gridTemplateColumns: `1.7rem repeat(${layout.cols}, 1.85rem) 1.7rem`,
-          gridTemplateRows: `repeat(${layout.rows}, 1.6rem)`,
-          gap: "2px",
+          gridTemplateColumns: `var(--seat-label) repeat(${layout.cols}, var(--seat-w)) var(--seat-label)`,
+          gridTemplateRows: `repeat(${layout.rows}, var(--seat-h))`,
+          gap: "3px",
         }}
       >
         {[...layout.rowLetters.entries()].map(([gridRow, letter]) => (
@@ -129,7 +129,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
 
 function seatClass(seat: PublicSeat, isSelected: boolean) {
   const base =
-    "flex items-center justify-center rounded-[3px] text-[10px] leading-none tabular-nums border outline-none [scroll-margin:0]";
+    "flex items-center justify-center rounded-[4px] text-[11px] leading-none tabular-nums border outline-none [scroll-margin:0] lg:text-[10px] lg:rounded-[3px]";
   if (seat.status === "sold" || seat.status === "blocked") {
     return `${base} cursor-not-allowed border-[#f0d49a] bg-[#d4a24a] text-[#1a100c] opacity-80`;
   }

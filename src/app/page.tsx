@@ -39,15 +39,7 @@ export default function HomePage() {
 
   function toggle(seat: PublicSeat) {
     if (seat.status !== "available") return;
-    setSelected((cur) => {
-      const next = cur.includes(seat.id) ? cur.filter((id) => id !== seat.id) : [...cur, seat.id];
-      if (!cur.includes(seat.id) && typeof window !== "undefined" && window.matchMedia("(max-width: 1023px)").matches) {
-        requestAnimationFrame(() => {
-          document.getElementById("register")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        });
-      }
-      return next;
-    });
+    setSelected((cur) => (cur.includes(seat.id) ? cur.filter((id) => id !== seat.id) : [...cur, seat.id]));
   }
 
   function switchSection(next: Section) {
@@ -58,11 +50,11 @@ export default function HomePage() {
 
   return (
     <div className="min-h-dvh max-lg:flex max-lg:h-[100svh] max-lg:flex-col max-lg:overflow-hidden">
-      <header className="shrink-0 border-b border-[#3a2a22] px-4 py-3 lg:px-6 lg:py-4">
-        <div className="mx-auto flex max-w-[1400px] flex-wrap items-end justify-between gap-3">
+      <header className="shrink-0 border-b border-[#3a2a22] px-3 py-2 lg:px-6 lg:py-4">
+        <div className="mx-auto flex max-w-[1400px] flex-wrap items-end justify-between gap-2">
           <div>
-            <p className="text-xs tracking-[0.28em] text-[#d4a24a] uppercase">State Theatre New Jersey</p>
-            <h1 className="mt-1 text-xl text-[#f4ece0] lg:text-2xl">Reserve your seats</h1>
+            <p className="hidden text-xs tracking-[0.28em] text-[#d4a24a] uppercase lg:block">State Theatre New Jersey</p>
+            <h1 className="text-lg text-[#f4ece0] lg:mt-1 lg:text-2xl">Reserve your seats</h1>
           </div>
           <nav className="flex gap-2">
             {(["orchestra", "balcony"] as Section[]).map((s) => (
@@ -84,9 +76,9 @@ export default function HomePage() {
         </div>
       </header>
 
-      <main className="mx-auto flex min-h-0 w-full max-w-[1400px] flex-1 flex-col gap-4 px-4 py-3 lg:grid lg:grid-cols-[1fr_340px] lg:gap-6 lg:overflow-visible lg:py-6">
+      <main className="mx-auto flex min-h-0 w-full max-w-[1400px] flex-1 flex-col gap-2 px-2 py-2 lg:grid lg:grid-cols-[1fr_340px] lg:gap-6 lg:overflow-visible lg:px-4 lg:py-6">
         <section className="flex min-h-0 min-w-0 flex-1 flex-col">
-          <div className="mb-2 shrink-0 text-sm text-[#f0d49a]/80">
+          <div className="mb-2 hidden shrink-0 text-sm text-[#f0d49a]/80 lg:block">
             <p>
               Click a seat to select it. Click again to release it. You can hold several seats, then register.
             </p>

@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import type { PublicSeat } from "@/lib/seats";
 import { formatPrice, seatLabel } from "@/lib/seats";
 
@@ -18,8 +18,13 @@ export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [open, setOpen] = useState(false);
 
   const total = seats.reduce((sum, s) => sum + s.price, 0);
+
+  useEffect(() => {
+    if (seats.length === 0) setOpen(false);
+  }, [seats.length]);
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -42,23 +47,106 @@ export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
       setError(data.error ?? "Registration failed.");
       return;
     }
-    setMessage(`Reserved ${data.seats.length} seat${data.seats.length === 1 ? "" : "s"} for ${data.name}. Total ${formatPrice(data.total)}.`);
+    setMessage(
+      `Reserved ${data.seats.length} seat${data.seats.length === 1 ? "" : "s"} for ${data.name}. Total ${formatPrice(data.total)}.`,
+    );
     setName("");
     setEmail("");
     setPhone("");
+    setOpen(false);
     await onSuccess();
   }
+
+  const body = (
+    <CheckoutBody
+      seats={seats}
+      total={total}
+      name={name}
+      email={email}
+      phone={phone}
+      busy={busy}
+      message={message}
+      error={error}
+      setName={setName}
+      setEmail={setEmail}
+      setPhone={setPhone}
+      onRemove={onRemove}
+      onClear={onClear}
+      onSubmit={submit}
+    />
+  );
 
   return (
     <aside
       id="checkout"
-      className="h-fit rounded-xl border border-[#3a2a22] bg-[#1d1412] p-5 max-lg:max-h-[42svh] max-lg:shrink-0 max-lg:overflow-y-auto max-lg:overscroll-contain max-lg:rounded-t-2xl max-lg:pb-[max(1.25rem,env(safe-area-inset-bottom))] lg:sticky lg:top-6"
+      className="h-fit rounded-xl border border-[#3a2a22] bg-[#1d1412] p-5 max-lg:rounded-t-2xl max-lg:p-3 max-lg:pb-[max(0.75rem,env(safe-area-inset-bottom))] lg:sticky lg:top-6"
     >
+      <div className="hidden lg:block">{body}</div>
+
+      <div className="lg:hidden">
+        {!open ? (
+          <button type="button" className="flex w-full items-center justify-between gap-3 text-left" onClick={() => setOpen(true)}>
+            <span>
+              <span className="block text-sm text-[#f0d49a]">Your seats</span>
+              <span className="text-xs text-[#f4ece0]/70">
+                {seats.length === 0
+                  ? "Tap seats on the map, then enter details here"
+                  : `${seats.length} selected · ${formatPrice(total)}`}
+              </span>
+            </span>
+            <span className="shrink-0 rounded-full bg-[#d4a24a] px-3 py-1.5 text-xs font-medium text-[#1a100c]">Details</span>
+          </button>
+        ) : (
+          <div className="max-h-[70svh] overflow-y-auto overscroll-contain">
+            <button type="button" className="mb-3 text-sm text-[#f0d49a]" onClick={() => setOpen(false)}>
+              Back to map
+            </button>
+            {body}
+          </div>
+        )}
+      </div>
+    </aside>
+  );
+}
+
+function CheckoutBody({
+  seats,
+  total,
+  name,
+  email,
+  phone,
+  busy,
+  message,
+  error,
+  setName,
+  setEmail,
+  setPhone,
+  onRemove,
+  onClear,
+  onSubmit,
+}: {
+  seats: PublicSeat[];
+  total: number;
+  name: string;
+  email: string;
+  phone: string;
+  busy: boolean;
+  message: string | null;
+  error: string | null;
+  setName: (v: string) => void;
+  setEmail: (v: string) => void;
+  setPhone: (v: string) => void;
+  onRemove: (id: string) => void;
+  onClear: () => void;
+  onSubmit: (e: FormEvent) => void;
+}) {
+  return (
+    <>
       <h2 className="text-lg text-[#f0d49a]">Your seats</h2>
       {seats.length === 0 ? (
         <p className="mt-3 text-sm text-[#f4ece0]/60">Select one or more seats on the map.</p>
       ) : (
-        <ul className="mt-3 max-h-20 space-y-2 overflow-auto text-sm lg:max-h-56">
+        <ul className="mt-3 max-h-56 space-y-2 overflow-auto text-sm">
           {seats.map((seat) => (
             <li key={seat.id} className="flex items-start justify-between gap-2">
               <span>
@@ -83,7 +171,7 @@ export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
         </button>
       ) : null}
 
-      <form id="register" className="mt-6 space-y-3" onSubmit={submit}>
+      <form id="register" className="mt-6 space-y-3" onSubmit={onSubmit}>
         <h3 className="text-sm tracking-wide text-[#d4a24a] uppercase">Register</h3>
         <Field label="Name" value={name} onChange={setName} autoComplete="name" required />
         <Field label="Email" value={email} onChange={setEmail} type="email" autoComplete="email" required />
@@ -98,7 +186,7 @@ export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
           {busy ? "Reserving…" : "Reserve selected seats"}
         </button>
       </form>
-    </aside>
+    </>
   );
 }
 
