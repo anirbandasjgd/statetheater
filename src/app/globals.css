@@ -33,9 +33,9 @@ textarea {
 
 @media (max-width: 1023px) {
   .seat-grid {
-    --seat-w: 2.55rem;
-    --seat-h: 2.25rem;
-    --seat-label: 1.85rem;
+    --seat-w: 2.05rem;
+    --seat-h: 1.8rem;
+    --seat-label: 1.6rem;
   }
 }
 

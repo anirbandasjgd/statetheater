@@ -67,7 +67,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
           display: "grid",
           gridTemplateColumns: `var(--seat-label) repeat(${layout.cols}, var(--seat-w)) var(--seat-label)`,
           gridTemplateRows: `repeat(${layout.rows}, var(--seat-h))`,
-          gap: "3px",
+          gap: "2px",
         }}
       >
         {[...layout.rowLetters.entries()].map(([gridRow, letter]) => (
@@ -129,7 +129,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
 
 function seatClass(seat: PublicSeat, isSelected: boolean) {
   const base =
-    "flex items-center justify-center rounded-[4px] text-[11px] leading-none tabular-nums border outline-none [scroll-margin:0] lg:text-[10px] lg:rounded-[3px]";
+    "flex items-center justify-center rounded-[3px] text-[10px] leading-none tabular-nums border outline-none [scroll-margin:0]";
   if (seat.status === "sold" || seat.status === "blocked") {
     return `${base} cursor-not-allowed border-[#f0d49a] bg-[#d4a24a] text-[#1a100c] opacity-80`;
   }
