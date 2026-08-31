@@ -3,6 +3,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import type { PublicSeat } from "@/lib/seats";
 import { formatPrice, seatLabel } from "@/lib/seats";
+import { tierFor } from "@/lib/pricing";
 
 type Props = {
   seats: PublicSeat[];
@@ -151,7 +152,9 @@ function CheckoutBody({
             <li key={seat.id} className="flex items-start justify-between gap-2">
               <span>
                 {seatLabel(seat)}
-                <span className="block text-xs text-[#f0d49a]/70">{formatPrice(seat.price)}</span>
+                <span className="block text-xs text-[#f0d49a]/70">
+                  {tierFor(seat.section, seat.row)} · {formatPrice(seat.price)}
+                </span>
               </span>
               <button type="button" className="text-xs text-[#f0d49a]/70 hover:text-[#f0d49a]" onClick={() => onRemove(seat.id)}>
                 Remove

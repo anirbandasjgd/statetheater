@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { PublicSeat, Section } from "@/lib/seats";
 import { formatPrice, seatLabel } from "@/lib/seats";
+import { tierFor } from "@/lib/pricing";
 import { SeatMap } from "@/components/SeatMap";
 import { Checkout } from "@/components/Checkout";
 
@@ -83,9 +84,10 @@ export default function HomePage() {
               Click a seat to select it. Click again to release it. You can hold several seats, then register.
             </p>
             <p className="mt-1 min-h-[1.75rem] overflow-hidden text-ellipsis whitespace-nowrap text-[#f0d49a]">
-              {hover ? `${seatLabel(hover)} · ${formatPrice(hover.price)} · ${hover.type}` : "\u00a0"}
+              {hover ? `${seatLabel(hover)} · ${tierFor(hover.section, hover.row)} · ${formatPrice(hover.price)} · ${hover.type}` : "\u00a0"}
             </p>
           </div>
+          <PriceLegend section={section} />
           {error ? <p className="text-red-300">{error}</p> : null}
           <div className="min-h-0 flex-1">
             {loading ? (
@@ -113,6 +115,29 @@ export default function HomePage() {
         />
       </main>
     </div>
+  );
+}
+
+function PriceLegend({ section }: { section: Section }) {
+  const items =
+    section === "orchestra"
+      ? [
+          { label: "VIP PA–D", price: "$0" },
+          { label: "Platinum E–P", price: "$125" },
+          { label: "Gold Q–DD", price: "$75" },
+        ]
+      : [
+          { label: "A–C", price: "$100" },
+          { label: "D and back", price: "$50" },
+        ];
+  return (
+    <ul className="mb-2 flex shrink-0 flex-wrap gap-x-4 gap-y-1 text-[11px] text-[#f0d49a]/80 lg:text-xs">
+      {items.map((item) => (
+        <li key={item.label}>
+          {item.label} {item.price}
+        </li>
+      ))}
+    </ul>
   );
 }
 

@@ -1,6 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { priceFor } from "../src/lib/pricing.ts";
 
 if (!process.env.DATABASE_URL) {
   const mount = process.env.RAILWAY_VOLUME_MOUNT_PATH?.replace(/\/$/, "");
@@ -19,28 +20,6 @@ type RawSeat = {
   x: number;
   y: number;
 };
-
-const ROW_ORDER = [
-  "PA", "PB",
-  "A", "B", "C", "D", "E", "F", "G", "H", "J", "K", "L", "M", "N",
-  "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
-  "AA", "BB", "CC", "DD",
-];
-const ROW_INDEX = Object.fromEntries(ROW_ORDER.map((r, i) => [r, i]));
-
-/** Tentative prices — edit here and re-run `npm run db:seed`. */
-function priceFor(section: string, row: string): number {
-  const idx = ROW_INDEX[row];
-  if (section === "orchestra") {
-    if (row === "PA" || row === "PB") return 175;
-    if (idx !== undefined && idx >= ROW_INDEX.A && idx <= ROW_INDEX.F) return 150;
-    if (idx !== undefined && idx >= ROW_INDEX.G && idx <= ROW_INDEX.N) return 100;
-    return 50;
-  }
-  if (idx !== undefined && idx >= ROW_INDEX.A && idx <= ROW_INDEX.C) return 100;
-  if (row === "A" || row === "B") return 100;
-  return 50;
-}
 
 function load(name: string): RawSeat[] {
   const path = resolve(process.cwd(), "data", `${name}.json`);

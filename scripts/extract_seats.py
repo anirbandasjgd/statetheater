@@ -248,16 +248,13 @@ def balcony(seats: list[dict], labels: list[dict]) -> list[dict]:
 
 
 def price_for(section: str, row: str) -> int:
-    idx = ROW_INDEX.get(row)
     if section == "orchestra":
-        if row in ("PA", "PB"):
-            return 175
-        if idx is not None and ROW_INDEX["A"] <= idx <= ROW_INDEX["F"]:
-            return 150
-        if idx is not None and ROW_INDEX["G"] <= idx <= ROW_INDEX["N"]:
-            return 100
-        return 50
-    # balcony, including boxes labeled A/B
+        if row in {"PA", "PB", "A", "B", "C", "D"}:
+            return 0
+        if row in {"E", "F", "G", "H", "J", "K", "L", "M", "N", "O", "P"}:
+            return 125
+        return 75
+    idx = ROW_INDEX.get(row)
     if idx is not None and ROW_INDEX["A"] <= idx <= ROW_INDEX["C"]:
         return 100
     if row in ("A", "B"):

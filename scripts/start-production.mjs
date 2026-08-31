@@ -13,6 +13,7 @@ function run(command) {
 }
 
 run("npx prisma db push");
+run("npm run db:prices");
 
 const { PrismaClient } = await import("@prisma/client");
 const prisma = new PrismaClient();

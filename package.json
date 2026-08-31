@@ -10,6 +10,7 @@
     "postinstall": "node scripts/ensure-db-url.mjs npx prisma generate",
     "db:push": "prisma db push",
     "db:seed": "node --experimental-strip-types prisma/seed.ts",
+    "db:prices": "node --experimental-strip-types scripts/update-prices.ts",
     "db:reset": "prisma db push --force-reset && node --experimental-strip-types prisma/seed.ts",
     "extract": ".venv/bin/python scripts/extract_excel.py"
   },

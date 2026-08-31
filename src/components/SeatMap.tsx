@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import type { PublicSeat, Section } from "@/lib/seats";
 import { formatPrice, seatLabel } from "@/lib/seats";
+import { tierFor } from "@/lib/pricing";
 
 type Props = {
   section: Section;
@@ -97,7 +98,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
               disabled={taken}
               aria-pressed={isSelected}
               aria-label={`${seatLabel(seat)}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}`}
-              title={`${seatLabel(seat)} · ${formatPrice(seat.price)}`}
+              title={`${seatLabel(seat)} · ${tierFor(seat.section, seat.row)} · ${formatPrice(seat.price)}`}
               className={seatClass(seat, isSelected)}
               style={{
                 gridColumn: (layout.colOf.get(seat.x) ?? 1) + 1,
