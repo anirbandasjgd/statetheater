@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { priceFor } from "../src/lib/pricing.ts";
 import { isAdaSeat } from "../src/lib/ada.ts";
+import { isHoldSeat } from "../src/lib/holds.ts";
 import { isKillSeat } from "../src/lib/kills.ts";
 
 if (!process.env.DATABASE_URL) {
@@ -44,11 +45,18 @@ async function main() {
       block: s.block,
       row: s.row,
       number: s.number,
-      type: isAdaSeat(s.section, s.row, s.number, s.block) ? "ada" : s.type,
+      type: isHoldSeat(s.section, s.row, s.number)
+        ? "hold"
+        : isAdaSeat(s.section, s.row, s.number, s.block)
+          ? "ada"
+          : s.type,
       price: priceFor(s.section, s.row, s.block),
       x: s.x,
       y: s.y,
-      status: isKillSeat(s.section, s.row, s.number, s.block) ? "blocked" : "available",
+      status:
+        isKillSeat(s.section, s.row, s.number, s.block) || isHoldSeat(s.section, s.row, s.number)
+          ? "blocked"
+          : "available",
     };
   });
 

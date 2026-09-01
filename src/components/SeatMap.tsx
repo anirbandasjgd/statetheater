@@ -97,7 +97,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
               type="button"
               disabled={taken}
               aria-pressed={isSelected}
-              aria-label={`${seatLabel(seat)}${seat.type === "ada" ? ", ADA" : ""}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}`}
+              aria-label={`${seatLabel(seat)}${seat.type === "ada" ? ", ADA" : ""}${seat.type === "hold" ? ", STNJ hold" : ""}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}`}
               title={`${seatLabel(seat)} · ${tierFor(seat.section, seat.row, seat.block)} · ${formatPrice(seat.price)}`}
               className={seatClass(seat, isSelected)}
               style={{
@@ -136,6 +136,9 @@ function seatClass(seat: PublicSeat, isSelected: boolean) {
     return `${base} cursor-not-allowed border-[#f0d49a] bg-[#d4a24a] text-[#1a100c] opacity-80`;
   }
   if (seat.status === "blocked") {
+    if (seat.type === "hold") {
+      return `${base} cursor-not-allowed border-2 border-[#3b82f6] bg-[#1e3a8a] text-[#bfdbfe]`;
+    }
     return `${base} cursor-not-allowed border-2 border-black bg-[#141414] text-[#6a6a6a]`;
   }
   if (isSelected) {

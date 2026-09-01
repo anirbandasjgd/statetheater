@@ -1,4 +1,4 @@
-export type SeatType = "standard" | "companion" | "transfer" | "wheelchair" | "ada";
+export type SeatType = "standard" | "companion" | "transfer" | "wheelchair" | "ada" | "hold";
 export type Section = "orchestra" | "balcony";
 
 export type PublicSeat = {
@@ -39,5 +39,6 @@ export function formatPrice(n: number) {
 
 export function typeLabel(type: string) {
   if (type === "ada") return "ADA";
+  if (type === "hold") return "STNJ Hold";
   return type;
 }

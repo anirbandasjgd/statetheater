@@ -284,7 +284,7 @@ function SeatEditor({ row, onSave }: { row: SeatRow; onSave: (id: string, data: 
           onChange={(e) => setType(e.target.value)}
           className="rounded border border-[#3a2a22] bg-[#140c0c] px-2 py-1 text-[#f4ece0]"
         >
-          {["standard", "companion", "transfer", "wheelchair", "ada"].map((opt) => (
+          {["standard", "companion", "transfer", "wheelchair", "ada", "hold"].map((opt) => (
             <option key={opt} value={opt}>
               {opt}
             </option>

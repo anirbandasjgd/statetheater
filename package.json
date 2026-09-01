@@ -13,6 +13,7 @@
     "db:prices": "node --experimental-strip-types scripts/update-prices.ts",
     "db:kills": "node --experimental-strip-types scripts/apply-kills.ts",
     "db:ada": "node --experimental-strip-types scripts/apply-ada.ts",
+    "db:holds": "node --experimental-strip-types scripts/apply-holds.ts",
     "db:reset": "prisma db push --force-reset && node --experimental-strip-types prisma/seed.ts",
     "extract": ".venv/bin/python scripts/extract_excel.py"
   },
