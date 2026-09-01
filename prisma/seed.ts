@@ -47,7 +47,7 @@ async function main() {
       price: priceFor(s.section, s.row, s.block),
       x: s.x,
       y: s.y,
-      status: isKillSeat(s.section, s.row, s.number) ? "blocked" : "available",
+      status: isKillSeat(s.section, s.row, s.number, s.block) ? "blocked" : "available",
     };
   });
 
