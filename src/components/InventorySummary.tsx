@@ -51,6 +51,10 @@ function SectionCard({ section }: { section: InventorySection }) {
           <TierRow key={`${section.section}-${row.tier}`} row={row} />
         ))}
       </ul>
+      <div className="mt-4 flex items-baseline justify-between border-t border-[#3a2a22] pt-3">
+        <span className="text-sm text-[#f0d49a]/70">{section.label} Revenue</span>
+        <span className="font-sans text-sm tabular-nums text-[#d4a24a]">{formatPrice(section.revenue)}</span>
+      </div>
     </article>
   );
 }
@@ -58,14 +62,20 @@ function SectionCard({ section }: { section: InventorySection }) {
 export function InventorySummary({ inventory }: { inventory: InventorySection[] }) {
   const selected = inventory.reduce((sum, section) => sum + section.selected, 0);
   const total = inventory.reduce((sum, section) => sum + section.total, 0);
+  const revenue = inventory.reduce((sum, section) => sum + section.revenue, 0);
 
   return (
     <section className="mt-8">
       <div className="flex items-end justify-between gap-4">
         <h2 className="text-sm tracking-[0.18em] text-[#d4a24a] uppercase">Seat inventory</h2>
-        <p className="font-sans text-sm tabular-nums text-[#f0d49a]/80">
-          {selected} of {total} sellable seats registered
-        </p>
+        <div className="text-right">
+          <p className="font-sans text-sm tabular-nums text-[#f0d49a]/80">
+            {selected} of {total} sellable seats registered
+          </p>
+          <p className="mt-1 font-sans text-sm tabular-nums text-[#d4a24a]">
+            Total Revenue {formatPrice(revenue)}
+          </p>
+        </div>
       </div>
       <div className="mt-3 grid gap-4 md:grid-cols-2">
         {inventory.map((section) => (
