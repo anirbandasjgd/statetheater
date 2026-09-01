@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { PublicSeat, Section } from "@/lib/seats";
-import { formatPrice, seatLabel } from "@/lib/seats";
+import { formatPrice, seatLabel, typeLabel } from "@/lib/seats";
 import { tierFor } from "@/lib/pricing";
 import { SeatMap } from "@/components/SeatMap";
 import { Checkout } from "@/components/Checkout";
@@ -84,7 +84,7 @@ export default function HomePage() {
               Click a seat to select it. Click again to release it. You can hold several seats, then register.
             </p>
             <p className="mt-1 min-h-[1.75rem] overflow-hidden text-ellipsis whitespace-nowrap text-[#f0d49a]">
-              {hover ? `${seatLabel(hover)} · ${tierFor(hover.section, hover.row, hover.block)} · ${formatPrice(hover.price)} · ${hover.type}` : "\u00a0"}
+              {hover ? `${seatLabel(hover)} · ${tierFor(hover.section, hover.row, hover.block)} · ${formatPrice(hover.price)} · ${typeLabel(hover.type)}` : "\u00a0"}
             </p>
           </div>
           <PriceLegend section={section} />
@@ -149,6 +149,7 @@ function Legend() {
     { label: "Selected", className: "border-[#d4a24a] bg-[#d4a24a]" },
     { label: "Taken", className: "border-[#d4a24a] bg-[#d4a24a] opacity-80" },
     { label: "Kill", className: "border-black bg-[#141414]" },
+    { label: "ADA", className: "border-[#dc2626] bg-[#4a3428]" },
     { label: "Companion (c)", className: "border-[#e6c84a] bg-[#e6c84a]/80" },
     { label: "Transfer (t)", className: "border-[#e08a3c] bg-[#e08a3c]/80" },
   ];

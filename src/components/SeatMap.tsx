@@ -97,7 +97,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
               type="button"
               disabled={taken}
               aria-pressed={isSelected}
-              aria-label={`${seatLabel(seat)}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}`}
+              aria-label={`${seatLabel(seat)}${seat.type === "ada" ? ", ADA" : ""}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}`}
               title={`${seatLabel(seat)} · ${tierFor(seat.section, seat.row, seat.block)} · ${formatPrice(seat.price)}`}
               className={seatClass(seat, isSelected)}
               style={{
@@ -138,7 +138,13 @@ function seatClass(seat: PublicSeat, isSelected: boolean) {
     return `${base} cursor-not-allowed border-2 border-black bg-[#141414] text-[#6a6a6a]`;
   }
   if (isSelected) {
+    if (seat.type === "ada") {
+      return `${base} cursor-pointer border-2 border-[#dc2626] bg-[#d4a24a] text-[#1a100c]`;
+    }
     return `${base} cursor-pointer border-[#f0d49a] bg-[#d4a24a] text-[#1a100c]`;
+  }
+  if (seat.type === "ada") {
+    return `${base} cursor-pointer border-2 border-[#dc2626] bg-[#4a3428] text-[#f4ece0] hover:bg-[#d4a24a]/40`;
   }
   if (seat.type === "wheelchair") {
     return `${base} cursor-pointer border-[#6ea8ff] bg-[#6ea8ff]/25 text-[#d6e7ff] hover:bg-[#6ea8ff]/50`;

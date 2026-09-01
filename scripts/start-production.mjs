@@ -24,6 +24,7 @@ if (seatCount === 0) {
   run("npm run db:prices");
 }
 run("npm run db:kills");
+run("npm run db:ada");
 
 const port = process.env.PORT ?? "3000";
 run(`npx next start --hostname 0.0.0.0 --port ${port}`);

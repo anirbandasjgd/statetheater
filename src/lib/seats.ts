@@ -1,4 +1,4 @@
-export type SeatType = "standard" | "companion" | "transfer" | "wheelchair";
+export type SeatType = "standard" | "companion" | "transfer" | "wheelchair" | "ada";
 export type Section = "orchestra" | "balcony";
 
 export type PublicSeat = {
@@ -35,4 +35,9 @@ export function seatLabel(seat: Pick<PublicSeat, "section" | "block" | "row" | "
 
 export function formatPrice(n: number) {
   return `$${n}`;
+}
+
+export function typeLabel(type: string) {
+  if (type === "ada") return "ADA";
+  return type;
 }

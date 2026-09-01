@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { priceFor } from "../src/lib/pricing.ts";
+import { isAdaSeat } from "../src/lib/ada.ts";
 import { isKillSeat } from "../src/lib/kills.ts";
 
 if (!process.env.DATABASE_URL) {
@@ -43,7 +44,7 @@ async function main() {
       block: s.block,
       row: s.row,
       number: s.number,
-      type: s.type,
+      type: isAdaSeat(s.section, s.row, s.number) ? "ada" : s.type,
       price: priceFor(s.section, s.row, s.block),
       x: s.x,
       y: s.y,
