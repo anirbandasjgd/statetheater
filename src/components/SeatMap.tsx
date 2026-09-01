@@ -58,7 +58,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
   const colCount = layout.cols + 2;
 
   return (
-    <div className="seat-map-scroll h-full max-h-[calc(100dvh-13.5rem)] overflow-auto rounded-xl border border-[#3a2a22] bg-[#1a1010] px-2 py-2 max-lg:max-h-none [overflow-anchor:none] [overscroll-behavior:contain] lg:px-6 lg:py-4">
+    <div className="seat-map-scroll h-full min-h-0 overflow-auto rounded-xl border border-[#3a2a22] bg-[#1a1010] px-2 py-2 [overflow-anchor:none] [overscroll-behavior:contain] lg:px-6 lg:py-4">
       {section === "balcony" ? (
         <p className="mb-3 text-center text-xs tracking-[0.25em] text-[#d4a24a] uppercase">Balcony</p>
       ) : null}

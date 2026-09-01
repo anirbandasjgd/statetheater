@@ -1,31 +1,34 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
 import type { PublicSeat } from "@/lib/seats";
 import { formatPrice, seatLabel } from "@/lib/seats";
 import { tierFor } from "@/lib/pricing";
 
 type Props = {
   seats: PublicSeat[];
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
   onRemove: (id: string) => void;
   onClear: () => void;
   onSuccess: () => Promise<void>;
 };
 
-export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
+export function Checkout({ seats, open, onOpenChange, onRemove, onClear, onSuccess }: Props) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [open, setOpen] = useState(false);
 
   const total = seats.reduce((sum, s) => sum + s.price, 0);
+  const previousCount = useRef(seats.length);
 
   useEffect(() => {
-    if (seats.length === 0) setOpen(false);
-  }, [seats.length]);
+    if (previousCount.current > 0 && seats.length === 0 && open) onOpenChange(false);
+    previousCount.current = seats.length;
+  }, [seats.length, open, onOpenChange]);
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -54,58 +57,58 @@ export function Checkout({ seats, onRemove, onClear, onSuccess }: Props) {
     setName("");
     setEmail("");
     setPhone("");
-    setOpen(false);
+    onOpenChange(false);
     await onSuccess();
   }
-
-  const body = (
-    <CheckoutBody
-      seats={seats}
-      total={total}
-      name={name}
-      email={email}
-      phone={phone}
-      busy={busy}
-      message={message}
-      error={error}
-      setName={setName}
-      setEmail={setEmail}
-      setPhone={setPhone}
-      onRemove={onRemove}
-      onClear={onClear}
-      onSubmit={submit}
-    />
-  );
 
   return (
     <aside
       id="checkout"
-      className="h-fit rounded-xl border border-[#3a2a22] bg-[#1d1412] p-5 max-lg:rounded-t-2xl max-lg:p-3 max-lg:pb-[max(0.75rem,env(safe-area-inset-bottom))] lg:sticky lg:top-6"
+      className={`rounded-xl border border-[#3a2a22] bg-[#1d1412] max-lg:rounded-t-2xl max-lg:pb-[max(0.75rem,env(safe-area-inset-bottom))] ${
+        open
+          ? "h-fit min-h-0 p-5 max-lg:p-3 lg:sticky lg:top-0 lg:self-start"
+          : "shrink-0 px-4 py-3 max-lg:px-3"
+      }`}
     >
-      <div className="hidden lg:block">{body}</div>
+      <button
+        type="button"
+        className="flex w-full items-center justify-between gap-3 text-left"
+        aria-expanded={open}
+        onClick={() => onOpenChange(!open)}
+      >
+        <span>
+          <span className="block text-sm text-[#f0d49a]">Your seats</span>
+          <span className="text-xs text-[#f4ece0]/70">
+            {seats.length === 0
+              ? "Select seats on the map, then expand to register"
+              : `${seats.length} selected · ${formatPrice(total)}`}
+          </span>
+        </span>
+        <span className="shrink-0 rounded-full bg-[#d4a24a] px-3 py-1.5 text-xs font-medium text-[#1a100c]">
+          {open ? "Hide" : seats.length > 0 ? "Register" : "Details"}
+        </span>
+      </button>
 
-      <div className="lg:hidden">
-        {!open ? (
-          <button type="button" className="flex w-full items-center justify-between gap-3 text-left" onClick={() => setOpen(true)}>
-            <span>
-              <span className="block text-sm text-[#f0d49a]">Your seats</span>
-              <span className="text-xs text-[#f4ece0]/70">
-                {seats.length === 0
-                  ? "Tap seats on the map, then enter details here"
-                  : `${seats.length} selected · ${formatPrice(total)}`}
-              </span>
-            </span>
-            <span className="shrink-0 rounded-full bg-[#d4a24a] px-3 py-1.5 text-xs font-medium text-[#1a100c]">Details</span>
-          </button>
-        ) : (
-          <div className="max-h-[70svh] overflow-y-auto overscroll-contain">
-            <button type="button" className="mb-3 text-sm text-[#f0d49a]" onClick={() => setOpen(false)}>
-              Back to map
-            </button>
-            {body}
-          </div>
-        )}
-      </div>
+      {open ? (
+        <div className="mt-4 max-h-[70svh] overflow-y-auto overscroll-contain lg:max-h-none">
+          <CheckoutBody
+            seats={seats}
+            total={total}
+            name={name}
+            email={email}
+            phone={phone}
+            busy={busy}
+            message={message}
+            error={error}
+            setName={setName}
+            setEmail={setEmail}
+            setPhone={setPhone}
+            onRemove={onRemove}
+            onClear={onClear}
+            onSubmit={submit}
+          />
+        </div>
+      ) : null}
     </aside>
   );
 }
@@ -143,11 +146,10 @@ function CheckoutBody({
 }) {
   return (
     <>
-      <h2 className="text-lg text-[#f0d49a]">Your seats</h2>
       {seats.length === 0 ? (
-        <p className="mt-3 text-sm text-[#f4ece0]/60">Select one or more seats on the map.</p>
+        <p className="text-sm text-[#f4ece0]/60">Select one or more seats on the map.</p>
       ) : (
-        <ul className="mt-3 max-h-56 space-y-2 overflow-auto text-sm">
+        <ul className="max-h-56 space-y-2 overflow-auto text-sm">
           {seats.map((seat) => (
             <li key={seat.id} className="flex items-start justify-between gap-2">
               <span>

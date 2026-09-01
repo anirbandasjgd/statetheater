@@ -12,6 +12,7 @@ export default function HomePage() {
   const [seats, setSeats] = useState<PublicSeat[]>([]);
   const [selected, setSelected] = useState<string[]>([]);
   const [hover, setHover] = useState<PublicSeat | null>(null);
+  const [checkoutOpen, setCheckoutOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -50,7 +51,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className="min-h-dvh max-lg:flex max-lg:h-[100svh] max-lg:flex-col max-lg:overflow-hidden">
+    <div className="flex h-[100svh] flex-col overflow-hidden">
       <header className="shrink-0 border-b border-[#3a2a22] px-3 py-2 lg:px-6 lg:py-4">
         <div className="mx-auto flex max-w-[1400px] flex-wrap items-end justify-between gap-2">
           <div>
@@ -77,7 +78,11 @@ export default function HomePage() {
         </div>
       </header>
 
-      <main className="mx-auto flex min-h-0 w-full max-w-[1400px] flex-1 flex-col gap-2 px-2 py-2 lg:grid lg:grid-cols-[1fr_340px] lg:gap-6 lg:overflow-visible lg:px-4 lg:py-6">
+      <main
+        className={`mx-auto flex min-h-0 w-full max-w-[1400px] flex-1 flex-col gap-2 px-2 py-2 lg:gap-6 lg:px-4 lg:py-6 ${
+          checkoutOpen ? "lg:grid lg:grid-cols-[1fr_340px] lg:grid-rows-[minmax(0,1fr)]" : ""
+        }`}
+      >
         <section className="flex min-h-0 min-w-0 flex-1 flex-col">
           <div className="mb-2 hidden shrink-0 text-sm text-[#f0d49a]/80 lg:block">
             <p>
@@ -106,6 +111,8 @@ export default function HomePage() {
         </section>
         <Checkout
           seats={selectedSeats}
+          open={checkoutOpen}
+          onOpenChange={setCheckoutOpen}
           onRemove={(id) => setSelected((cur) => cur.filter((x) => x !== id))}
           onClear={() => setSelected([])}
           onSuccess={async () => {
