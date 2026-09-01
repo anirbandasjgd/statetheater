@@ -21,7 +21,9 @@ const seatCount = await prisma.seat.count();
 await prisma.$disconnect();
 if (seatCount === 0) {
   run("npm run db:seed");
+  run("npm run db:prices");
 }
+run("npm run db:kills");
 
 const port = process.env.PORT ?? "3000";
 run(`npx next start --hostname 0.0.0.0 --port ${port}`);

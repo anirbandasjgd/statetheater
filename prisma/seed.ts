@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { priceFor } from "../src/lib/pricing.ts";
+import { isKillSeat } from "../src/lib/kills.ts";
 
 if (!process.env.DATABASE_URL) {
   const mount = process.env.RAILWAY_VOLUME_MOUNT_PATH?.replace(/\/$/, "");
@@ -46,7 +47,7 @@ async function main() {
       price: priceFor(s.section, s.row, s.block),
       x: s.x,
       y: s.y,
-      status: "available",
+      status: isKillSeat(s.section, s.row, s.number) ? "blocked" : "available",
     };
   });
 

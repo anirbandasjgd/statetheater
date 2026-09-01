@@ -148,6 +148,7 @@ function Legend() {
     { label: "Available", className: "border-[#d4a24a]/70 bg-transparent" },
     { label: "Selected", className: "border-[#d4a24a] bg-[#d4a24a]" },
     { label: "Taken", className: "border-[#d4a24a] bg-[#d4a24a] opacity-80" },
+    { label: "Kill", className: "border-black bg-[#141414]" },
     { label: "Companion (c)", className: "border-[#e6c84a] bg-[#e6c84a]/80" },
     { label: "Transfer (t)", className: "border-[#e08a3c] bg-[#e08a3c]/80" },
   ];

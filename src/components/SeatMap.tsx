@@ -131,8 +131,11 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
 function seatClass(seat: PublicSeat, isSelected: boolean) {
   const base =
     "flex items-center justify-center rounded-[3px] text-[10px] leading-none tabular-nums border outline-none [scroll-margin:0]";
-  if (seat.status === "sold" || seat.status === "blocked") {
+  if (seat.status === "sold") {
     return `${base} cursor-not-allowed border-[#f0d49a] bg-[#d4a24a] text-[#1a100c] opacity-80`;
+  }
+  if (seat.status === "blocked") {
+    return `${base} cursor-not-allowed border-2 border-black bg-[#141414] text-[#6a6a6a]`;
   }
   if (isSelected) {
     return `${base} cursor-pointer border-[#f0d49a] bg-[#d4a24a] text-[#1a100c]`;
