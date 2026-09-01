@@ -1,9 +1,9 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, type CSSProperties } from "react";
 import type { PublicSeat, Section } from "@/lib/seats";
 import { formatPrice, seatLabel } from "@/lib/seats";
-import { tierFor } from "@/lib/pricing";
+import { TIER_COLORS, tierFor } from "@/lib/pricing";
 
 type Props = {
   section: Section;
@@ -103,6 +103,7 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
               style={{
                 gridColumn: (layout.colOf.get(seat.x) ?? 1) + 1,
                 gridRow: layout.rowOf.get(seat.y) ?? 1,
+                ...seatTint(seat, isSelected),
               }}
               onMouseEnter={() => onHover(seat)}
               onMouseLeave={() => onHover(null)}
@@ -143,17 +144,17 @@ function seatClass(seat: PublicSeat, isSelected: boolean) {
     }
     return `${base} cursor-pointer border-[#f0d49a] bg-[#d4a24a] text-[#1a100c]`;
   }
-  if (seat.type === "ada") {
-    return `${base} cursor-pointer border-2 border-[#dc2626] bg-[#4a3428] text-[#f4ece0] hover:bg-[#d4a24a]/40`;
-  }
-  if (seat.type === "wheelchair") {
-    return `${base} cursor-pointer border-[#6ea8ff] bg-[#6ea8ff]/25 text-[#d6e7ff] hover:bg-[#6ea8ff]/50`;
-  }
-  if (seat.type === "companion") {
-    return `${base} cursor-pointer border-[#e6c84a] bg-[#e6c84a]/20 text-[#f0d49a] hover:bg-[#e6c84a]/45`;
-  }
-  if (seat.type === "transfer") {
-    return `${base} cursor-pointer border-[#e08a3c] bg-[#e08a3c]/20 text-[#f0d49a] hover:bg-[#e08a3c]/45`;
-  }
-  return `${base} cursor-pointer border-[#d4a24a]/45 bg-[#241816] text-[#f4ece0] hover:bg-[#d4a24a]/35`;
+  const dashed = seat.type === "transfer" ? "border-dashed" : "";
+  const thick = seat.type === "ada" ? "border-2" : "";
+  return `${base} ${thick} ${dashed} cursor-pointer hover:brightness-125`;
+}
+
+function seatTint(seat: PublicSeat, isSelected: boolean): CSSProperties | undefined {
+  if (seat.status === "sold" || seat.status === "blocked" || isSelected) return undefined;
+  const colors = TIER_COLORS[tierFor(seat.section, seat.row, seat.block)];
+  return {
+    borderColor: seat.type === "ada" ? "#dc2626" : colors.border,
+    backgroundColor: colors.fill,
+    color: colors.text,
+  };
 }

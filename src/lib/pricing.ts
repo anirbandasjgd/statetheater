@@ -13,6 +13,15 @@ const BALCONY_BOX_BLOCKS = new Set(["boxLeft", "boxRight", "vipBoxLeft", "vipBox
 
 export type SeatTier = "VIP" | "Platinum" | "Gold" | "Silver" | "Student" | "Box";
 
+export const TIER_COLORS: Record<SeatTier, { border: string; fill: string; text: string }> = {
+  VIP: { border: "#f8f1e3", fill: "#6a6152", text: "#f8f1e3" },
+  Platinum: { border: "#c4b5fd", fill: "#3d3460", text: "#ddd6fe" },
+  Gold: { border: "#d4a24a", fill: "#4a3618", text: "#f0d49a" },
+  Silver: { border: "#7dd3fc", fill: "#1a4a5c", text: "#bae6fd" },
+  Student: { border: "#6ee7b7", fill: "#1a4a3c", text: "#a7f3d0" },
+  Box: { border: "#f0abfc", fill: "#4a2860", text: "#f5d0fe" },
+};
+
 export function tierFor(section: string, row: string, block = ""): SeatTier {
   if (section === "balcony" && BALCONY_BOX_BLOCKS.has(block)) return "Box";
   if (section === "orchestra") {

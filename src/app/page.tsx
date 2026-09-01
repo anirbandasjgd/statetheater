@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { PublicSeat, Section } from "@/lib/seats";
 import { formatPrice, seatLabel, typeLabel } from "@/lib/seats";
-import { tierFor } from "@/lib/pricing";
+import { TIER_COLORS, tierFor, type SeatTier } from "@/lib/pricing";
 import { SeatMap } from "@/components/SeatMap";
 import { Checkout } from "@/components/Checkout";
 
@@ -119,33 +119,39 @@ export default function HomePage() {
 }
 
 function PriceLegend({ section }: { section: Section }) {
-  const items =
+  const items: { tier: SeatTier; label: string; price: string }[] =
     section === "orchestra"
       ? [
-          { label: "VIP PA–D", price: "$0" },
-          { label: "Platinum E–P", price: "$125" },
-          { label: "Gold Q–DD", price: "$75" },
+          { tier: "VIP", label: "VIP PA–D", price: "$0" },
+          { tier: "Platinum", label: "Platinum E–P", price: "$125" },
+          { tier: "Gold", label: "Gold Q–DD", price: "$75" },
         ]
       : [
-          { label: "Gold A–C", price: "$75" },
-          { label: "Silver D–V", price: "$50" },
-          { label: "Student W–CC", price: "$40" },
-          { label: "Box Left/Right", price: "$1000" },
+          { tier: "Gold", label: "Gold A–C", price: "$75" },
+          { tier: "Silver", label: "Silver D–V", price: "$50" },
+          { tier: "Student", label: "Student W–CC", price: "$40" },
+          { tier: "Box", label: "Box Left/Right", price: "$1000" },
         ];
   return (
     <ul className="mb-2 flex shrink-0 flex-wrap gap-x-4 gap-y-1 text-[11px] text-[#f0d49a]/80 lg:text-xs">
-      {items.map((item) => (
-        <li key={item.label}>
-          {item.label} {item.price}
-        </li>
-      ))}
+      {items.map((item) => {
+        const colors = TIER_COLORS[item.tier];
+        return (
+          <li key={item.label} className="flex items-center gap-1.5">
+            <span
+              className="inline-block h-2.5 w-2.5 rounded-[2px] border"
+              style={{ borderColor: colors.border, backgroundColor: colors.fill }}
+            />
+            {item.label} {item.price}
+          </li>
+        );
+      })}
     </ul>
   );
 }
 
 function Legend() {
   const items = [
-    { label: "Available", className: "border-[#d4a24a]/70 bg-transparent" },
     { label: "Selected", className: "border-[#d4a24a] bg-[#d4a24a]" },
     { label: "Taken", className: "border-[#d4a24a] bg-[#d4a24a] opacity-80" },
     { label: "Kill", className: "border-black bg-[#141414]" },
