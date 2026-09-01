@@ -10,9 +10,11 @@ const prisma = new PrismaClient();
 
 async function main() {
   const seats = await prisma.seat.findMany({
-    select: { id: true, section: true, row: true, number: true, type: true },
+    select: { id: true, section: true, block: true, row: true, number: true, type: true },
   });
-  const adaIds = seats.filter((s) => isAdaSeat(s.section, s.row, s.number) && s.type !== "ada").map((s) => s.id);
+  const adaIds = seats
+    .filter((s) => isAdaSeat(s.section, s.row, s.number, s.block) && s.type !== "ada")
+    .map((s) => s.id);
   if (adaIds.length === 0) {
     console.log("No ADA seats to update.");
     return;
@@ -21,7 +23,17 @@ async function main() {
     where: { id: { in: adaIds } },
     data: { type: "ada" },
   });
-  console.log(`Marked ${adaIds.length} orchestra seats as ADA.`);
+  const bySection = seats
+    .filter((s) => adaIds.includes(s.id))
+    .reduce<Record<string, number>>((acc, s) => {
+      acc[s.section] = (acc[s.section] ?? 0) + 1;
+      return acc;
+    }, {});
+  console.log(
+    `Marked ${adaIds.length} seats as ADA (${Object.entries(bySection)
+      .map(([section, n]) => `${section} ${n}`)
+      .join(", ")}).`,
+  );
 }
 
 main()

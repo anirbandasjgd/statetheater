@@ -44,7 +44,7 @@ async function main() {
       block: s.block,
       row: s.row,
       number: s.number,
-      type: isAdaSeat(s.section, s.row, s.number) ? "ada" : s.type,
+      type: isAdaSeat(s.section, s.row, s.number, s.block) ? "ada" : s.type,
       price: priceFor(s.section, s.row, s.block),
       x: s.x,
       y: s.y,
