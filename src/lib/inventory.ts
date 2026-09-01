@@ -9,7 +9,33 @@ export type InventoryTierRow = {
   selected: number;
   total: number;
   revenue: number;
+  adaSelected: number;
+  adaTotal: number;
+  companionSelected: number;
+  companionTotal: number;
 };
+
+type Bucket = {
+  selected: number;
+  total: number;
+  revenue: number;
+  adaSelected: number;
+  adaTotal: number;
+  companionSelected: number;
+  companionTotal: number;
+};
+
+function emptyBucket(): Bucket {
+  return {
+    selected: 0,
+    total: 0,
+    revenue: 0,
+    adaSelected: 0,
+    adaTotal: 0,
+    companionSelected: 0,
+    companionTotal: 0,
+  };
+}
 
 export type InventorySection = {
   section: InventorySectionId;
@@ -51,30 +77,30 @@ function bucketKey(section: string, tier: string) {
 }
 
 export function summarizeInventory(
-  seats: { section: string; row: string; block: string; status: string; price: number }[],
+  seats: { section: string; row: string; block: string; status: string; price: number; type: string }[],
 ): InventorySection[] {
-  const counts = new Map<string, { selected: number; total: number; revenue: number }>();
+  const counts = new Map<string, Bucket>();
 
   for (const seat of seats) {
     if (seat.status === "blocked") continue;
     const tier = tierFor(seat.section, seat.row, seat.block);
     const key = bucketKey(seat.section, tier);
-    const cur = counts.get(key) ?? { selected: 0, total: 0, revenue: 0 };
+    const cur = counts.get(key) ?? emptyBucket();
     cur.total += 1;
+    if (seat.type === "ada") cur.adaTotal += 1;
+    if (seat.type === "companion") cur.companionTotal += 1;
     if (seat.status === "sold") {
       cur.selected += 1;
       cur.revenue += seat.price;
+      if (seat.type === "ada") cur.adaSelected += 1;
+      if (seat.type === "companion") cur.companionSelected += 1;
     }
     counts.set(key, cur);
   }
 
   return LAYOUT.map((section) => {
     const tiers = section.tiers.map((def) => {
-      const cur = counts.get(bucketKey(section.section, def.tier)) ?? {
-        selected: 0,
-        total: 0,
-        revenue: 0,
-      };
+      const cur = counts.get(bucketKey(section.section, def.tier)) ?? emptyBucket();
       return {
         tier: def.tier,
         note: def.note,
@@ -82,6 +108,10 @@ export function summarizeInventory(
         selected: cur.selected,
         total: cur.total,
         revenue: cur.revenue,
+        adaSelected: cur.adaSelected,
+        adaTotal: cur.adaTotal,
+        companionSelected: cur.companionSelected,
+        companionTotal: cur.companionTotal,
       };
     });
     return {

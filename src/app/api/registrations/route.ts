@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
       include: { seats: { include: { seat: true } } },
     }),
     prisma.seat.findMany({
-      select: { section: true, row: true, block: true, status: true, price: true },
+      select: { section: true, row: true, block: true, status: true, price: true, type: true },
     }),
   ]);
 

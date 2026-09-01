@@ -15,6 +15,28 @@ function Meter({ selected, total }: { selected: number; total: number }) {
   );
 }
 
+function TypeSplit({
+  label,
+  selected,
+  total,
+  color,
+}: {
+  label: string;
+  selected: number;
+  total: number;
+  color: string;
+}) {
+  return (
+    <span className="flex items-baseline gap-1">
+      <span style={{ color }}>{label}</span>
+      <span className="tabular-nums text-[#f0d49a]/70">
+        {selected}
+        <span className="text-[#f0d49a]/45"> / {total}</span>
+      </span>
+    </span>
+  );
+}
+
 function TierRow({ row }: { row: InventoryTierRow }) {
   return (
     <li>
@@ -31,6 +53,21 @@ function TierRow({ row }: { row: InventoryTierRow }) {
         </div>
       </div>
       <Meter selected={row.selected} total={row.total} />
+      {row.adaTotal > 0 || row.companionTotal > 0 ? (
+        <p className="mt-1.5 flex flex-wrap gap-x-4 gap-y-0.5 font-sans text-[11px]">
+          {row.adaTotal > 0 ? (
+            <TypeSplit label="ADA" selected={row.adaSelected} total={row.adaTotal} color="#dc2626" />
+          ) : null}
+          {row.companionTotal > 0 ? (
+            <TypeSplit
+              label="Companion"
+              selected={row.companionSelected}
+              total={row.companionTotal}
+              color="#22c55e"
+            />
+          ) : null}
+        </p>
+      ) : null}
     </li>
   );
 }
