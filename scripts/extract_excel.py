@@ -43,12 +43,11 @@ def price_for(section: str, row: str) -> int:
         if row in {"E", "F", "G", "H", "J", "K", "L", "M", "N", "O", "P"}:
             return 125
         return 75
-    idx = ROW_INDEX.get(row)
-    if idx is not None and ROW_INDEX["A"] <= idx <= ROW_INDEX["C"]:
-        return 100
-    if row in ("A", "B"):
-        return 100
-    return 50
+    if row in {"A", "B", "C"}:
+        return 75
+    if row in {"D", "E", "F", "G", "H", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V"}:
+        return 50
+    return 40
 
 
 def parse_seat(value) -> tuple[int, str] | None:

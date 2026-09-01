@@ -127,8 +127,9 @@ function PriceLegend({ section }: { section: Section }) {
           { label: "Gold Q–DD", price: "$75" },
         ]
       : [
-          { label: "A–C", price: "$100" },
-          { label: "D and back", price: "$50" },
+          { label: "Gold A–C", price: "$75" },
+          { label: "Silver D–V", price: "$50" },
+          { label: "Student W–CC", price: "$40" },
         ];
   return (
     <ul className="mb-2 flex shrink-0 flex-wrap gap-x-4 gap-y-1 text-[11px] text-[#f0d49a]/80 lg:text-xs">
