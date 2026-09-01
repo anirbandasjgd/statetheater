@@ -43,7 +43,7 @@ async function main() {
       row: s.row,
       number: s.number,
       type: s.type,
-      price: priceFor(s.section, s.row),
+      price: priceFor(s.section, s.row, s.block),
       x: s.x,
       y: s.y,
       status: "available",

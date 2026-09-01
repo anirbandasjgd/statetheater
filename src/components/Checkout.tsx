@@ -153,7 +153,7 @@ function CheckoutBody({
               <span>
                 {seatLabel(seat)}
                 <span className="block text-xs text-[#f0d49a]/70">
-                  {tierFor(seat.section, seat.row)} · {formatPrice(seat.price)}
+                  {tierFor(seat.section, seat.row, seat.block)} · {formatPrice(seat.price)}
                 </span>
               </span>
               <button type="button" className="text-xs text-[#f0d49a]/70 hover:text-[#f0d49a]" onClick={() => onRemove(seat.id)}>
