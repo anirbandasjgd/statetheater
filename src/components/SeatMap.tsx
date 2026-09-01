@@ -145,18 +145,22 @@ function seatClass(seat: PublicSeat, isSelected: boolean) {
     if (seat.type === "ada") {
       return `${base} cursor-pointer border-2 border-[#dc2626] bg-[#d4a24a] text-[#1a100c]`;
     }
+    if (seat.type === "companion") {
+      return `${base} cursor-pointer border-2 border-[#22c55e] bg-[#d4a24a] text-[#1a100c]`;
+    }
     return `${base} cursor-pointer border-[#f0d49a] bg-[#d4a24a] text-[#1a100c]`;
   }
   const dashed = seat.type === "transfer" ? "border-dashed" : "";
-  const thick = seat.type === "ada" ? "border-2" : "";
+  const thick = seat.type === "ada" || seat.type === "companion" ? "border-2" : "";
   return `${base} ${thick} ${dashed} cursor-pointer hover:brightness-125`;
 }
 
 function seatTint(seat: PublicSeat, isSelected: boolean): CSSProperties | undefined {
   if (seat.status === "sold" || seat.status === "blocked" || isSelected) return undefined;
   const colors = TIER_COLORS[tierFor(seat.section, seat.row, seat.block)];
+  const borderColor = seat.type === "ada" ? "#dc2626" : seat.type === "companion" ? "#22c55e" : colors.border;
   return {
-    borderColor: seat.type === "ada" ? "#dc2626" : colors.border,
+    borderColor,
     backgroundColor: colors.fill,
     color: colors.text,
   };

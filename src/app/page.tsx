@@ -157,7 +157,7 @@ function Legend() {
     { label: "Kill", className: "border-black bg-[#141414]" },
     { label: "STNJ Hold", className: "border-[#3b82f6] bg-[#1e3a8a]" },
     { label: "ADA", className: "border-[#dc2626] bg-[#4a3428]" },
-    { label: "Companion (c)", className: "border-[#e6c84a] bg-[#e6c84a]/80" },
+    { label: "Companion (c)", className: "border-[#22c55e] bg-transparent" },
     { label: "Transfer (t)", className: "border-[#e08a3c] bg-[#e08a3c]/80" },
   ];
   return (
