@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { InventorySummary } from "@/components/InventorySummary";
+import type { InventorySection } from "@/lib/inventory";
 import { formatPrice, seatLabel, type Section } from "@/lib/seats";
 
 type Row = {
@@ -23,13 +25,16 @@ type Row = {
 
 export default function AdminPage() {
   const [rows, setRows] = useState<Row[]>([]);
+  const [inventory, setInventory] = useState<InventorySection[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/api/registrations")
       .then(async (res) => {
         if (!res.ok) throw new Error("Failed to load");
-        setRows(await res.json());
+        const data = await res.json();
+        setInventory(Array.isArray(data.inventory) ? data.inventory : []);
+        setRows(Array.isArray(data.registrations) ? data.registrations : []);
       })
       .catch(() => setError("Could not load registrations."));
   }, []);
@@ -60,6 +65,7 @@ export default function AdminPage() {
           </div>
         </div>
         {error ? <p className="mt-6 text-red-300">{error}</p> : null}
+        {inventory.length > 0 ? <InventorySummary inventory={inventory} /> : null}
         {rows.length === 0 && !error ? (
           <p className="mt-8 text-[#f4ece0]/60">No registrations yet.</p>
         ) : (
