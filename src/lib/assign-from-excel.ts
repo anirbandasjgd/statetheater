@@ -180,7 +180,7 @@ function isSpecial(type: string) {
 
 function seatInPool(seat: DbSeat, pool: AssignPool) {
   if (seat.status !== "available") return false;
-  if (seat.type === "hold") return false;
+  if (seat.type === "hold" || seat.type === "ada" || seat.type === "companion") return false;
   const tier = tierFor(seat.section, seat.row, seat.block);
   if (tier === "VIP" || tier === "Box") return false;
   if (pool === "platinum") return seat.section === "orchestra" && tier === "Platinum";
@@ -238,21 +238,20 @@ function findContiguousRun(remaining: DbSeat[], n: number, centerX: number, layo
 
 function takeTogether(seats: DbSeat[], n: number, layout: DbSeat[]): DbSeat[] | null {
   if (n <= 0) return [];
-  if (seats.length < n) return null;
-  const centerX = medianX(seats);
   const preferred = seats.filter((seat) => !isSpecial(seat.type));
-  const exact = findContiguousRun(preferred, n, centerX, layout) ?? findContiguousRun(seats, n, centerX, layout);
+  if (preferred.length < n) return null;
+  const centerX = medianX(preferred);
+  const exact = findContiguousRun(preferred, n, centerX, layout);
   if (exact) return exact;
 
   const packed: DbSeat[] = [];
-  const available = new Set(seats);
+  const available = new Set(preferred);
   let remaining = n;
   while (remaining > 0) {
     const open = [...available];
-    const openPreferred = open.filter((seat) => !isSpecial(seat.type));
     let chunk: DbSeat[] | null = null;
     for (let size = remaining; size >= 1; size -= 1) {
-      chunk = findContiguousRun(openPreferred, size, centerX, layout) ?? findContiguousRun(open, size, centerX, layout);
+      chunk = findContiguousRun(open, size, centerX, layout);
       if (chunk) break;
     }
     if (!chunk) return null;
