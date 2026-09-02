@@ -7071,6 +7071,46 @@
   },
   {
     "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 8,
+    "type": "standard",
+    "price": 125,
+    "x": 8,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 6,
+    "type": "standard",
+    "price": 125,
+    "x": 9,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 4,
+    "type": "standard",
+    "price": 125,
+    "x": 10,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
+    "block": "left",
+    "row": "G",
+    "number": 2,
+    "type": "standard",
+    "price": 125,
+    "x": 11,
+    "y": 74
+  },
+  {
+    "section": "orchestra",
     "block": "center",
     "row": "G",
     "number": 115,
