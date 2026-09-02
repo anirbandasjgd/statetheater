@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { InventorySummary } from "@/components/InventorySummary";
+import { AssignFromExcel } from "@/components/AssignFromExcel";
 import type { InventorySection } from "@/lib/inventory";
 import { formatPrice, seatLabel, type Section } from "@/lib/seats";
 
@@ -28,8 +29,8 @@ export default function AdminPage() {
   const [inventory, setInventory] = useState<InventorySection[]>([]);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    fetch("/api/registrations")
+  const load = useCallback(() => {
+    return fetch("/api/registrations")
       .then(async (res) => {
         if (!res.ok) throw new Error("Failed to load");
         const data = await res.json();
@@ -38,6 +39,10 @@ export default function AdminPage() {
       })
       .catch(() => setError("Could not load registrations."));
   }, []);
+
+  useEffect(() => {
+    void load();
+  }, [load]);
 
   return (
     <div className="min-h-screen px-6 py-8">
@@ -66,6 +71,7 @@ export default function AdminPage() {
         </div>
         {error ? <p className="mt-6 text-red-300">{error}</p> : null}
         {inventory.length > 0 ? <InventorySummary inventory={inventory} /> : null}
+        <AssignFromExcel onAssigned={load} />
         {rows.length === 0 && !error ? (
           <p className="mt-8 text-[#f4ece0]/60">No registrations yet.</p>
         ) : (
