@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { InventorySummary } from "@/components/InventorySummary";
 import { AssignFromExcel } from "@/components/AssignFromExcel";
+import { DeliveredCheckbox } from "@/components/DeliveredCheckbox";
 import type { InventorySection } from "@/lib/inventory";
 import { formatPrice, seatLabel, type Section } from "@/lib/seats";
 
@@ -11,6 +12,7 @@ type Row = {
   name: string;
   email: string;
   phone: string;
+  ticketDelivered: boolean;
   createdAt: string;
   total: number;
   seats: {
@@ -39,6 +41,19 @@ export default function AdminPage() {
       })
       .catch(() => setError("Could not load registrations."));
   }, []);
+
+  async function markDelivered(id: string) {
+    setRows((cur) => cur.map((row) => (row.id === id ? { ...row, ticketDelivered: true } : row)));
+    const res = await fetch("/api/registrations", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, ticketDelivered: true }),
+    });
+    if (!res.ok) {
+      setRows((cur) => cur.map((row) => (row.id === id ? { ...row, ticketDelivered: false } : row)));
+      setError("Could not mark that ticket as delivered.");
+    }
+  }
 
   useEffect(() => {
     void load();
@@ -83,6 +98,7 @@ export default function AdminPage() {
                   <th className="px-4 py-3 font-medium">Contact</th>
                   <th className="px-4 py-3 font-medium">Seats</th>
                   <th className="px-4 py-3 font-medium">Total</th>
+                  <th className="px-4 py-3 font-medium">Delivered</th>
                 </tr>
               </thead>
               <tbody>
@@ -108,6 +124,16 @@ export default function AdminPage() {
                       </ul>
                     </td>
                     <td className="px-4 py-3 align-top text-[#d4a24a]">{formatPrice(row.total)}</td>
+                    <td className="px-4 py-3 align-top">
+                      <DeliveredCheckbox
+                        name={row.name}
+                        checked={Boolean(row.ticketDelivered)}
+                        locked={Boolean(row.ticketDelivered)}
+                        onChange={(next) => {
+                          if (next) void markDelivered(row.id);
+                        }}
+                      />
+                    </td>
                   </tr>
                 ))}
               </tbody>

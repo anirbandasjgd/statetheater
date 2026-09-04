@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useCallback, useEffect, useState } from "react";
+import { DeliveredCheckbox } from "@/components/DeliveredCheckbox";
 
 type TableId = "seat" | "registration" | "registrationSeat";
 type TableMeta = { id: TableId; name: string; count: number };
@@ -19,6 +20,7 @@ type RegistrationRow = {
   name: string;
   email: string;
   phone: string;
+  ticketDelivered: boolean;
   createdAt: string;
   seatIds: string[];
   seatLabels: string[];
@@ -340,6 +342,7 @@ function RegistrationTable({
           <th className="px-3 py-3 font-medium">Guest</th>
           <th className="px-3 py-3 font-medium">Contact</th>
           <th className="px-3 py-3 font-medium">Seats</th>
+          <th className="px-3 py-3 font-medium">Delivered</th>
           <th className="px-3 py-3 font-medium" />
         </tr>
       </thead>
@@ -364,10 +367,12 @@ function RegistrationEditor({
   const [name, setName] = useState(row.name);
   const [email, setEmail] = useState(row.email);
   const [phone, setPhone] = useState(row.phone);
+  const [ticketDelivered, setTicketDelivered] = useState(row.ticketDelivered);
   useEffect(() => {
     setName(row.name);
     setEmail(row.email);
     setPhone(row.phone);
+    setTicketDelivered(row.ticketDelivered);
   }, [row]);
   return (
     <tr className="border-t border-[#3a2a22]">
@@ -394,7 +399,14 @@ function RegistrationEditor({
       </td>
       <td className="px-3 py-2 align-top text-[#f4ece0]/80">{row.seatLabels.join(", ") || "—"}</td>
       <td className="px-3 py-2 align-top">
-        <button type="button" className="block text-[#d4a24a]" onClick={() => onSave(row.id, { name, email, phone })}>
+        <DeliveredCheckbox name={row.name} checked={ticketDelivered} onChange={setTicketDelivered} />
+      </td>
+      <td className="px-3 py-2 align-top">
+        <button
+          type="button"
+          className="block text-[#d4a24a]"
+          onClick={() => onSave(row.id, { name, email, phone, ticketDelivered })}
+        >
           Save
         </button>
         <button type="button" className="mt-2 block text-red-300" onClick={() => onDelete(row.id)}>

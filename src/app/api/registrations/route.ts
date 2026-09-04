@@ -26,6 +26,7 @@ export async function GET(req: NextRequest) {
       name: r.name,
       email: r.email,
       phone: r.phone,
+      ticketDelivered: r.ticketDelivered,
       createdAt: r.createdAt,
       total: r.seats.reduce((sum, rs) => sum + rs.seat.price, 0),
       seats: r.seats.map((rs) => ({
@@ -39,4 +40,27 @@ export async function GET(req: NextRequest) {
       })),
     })),
   });
+}
+
+export async function PATCH(req: NextRequest) {
+  const ok = await verifySessionToken(req.cookies.get(ADMIN_COOKIE)?.value);
+  if (!ok) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const body = await req.json().catch(() => null);
+  const id = typeof body?.id === "string" ? body.id : "";
+  if (!id || body?.ticketDelivered !== true) {
+    return NextResponse.json(
+      { error: "Registrations can only mark a ticket delivered. Undo that on the Database page." },
+      { status: 400 },
+    );
+  }
+
+  const updated = await prisma.registration.update({
+    where: { id },
+    data: { ticketDelivered: true },
+    select: { id: true, ticketDelivered: true },
+  });
+  return NextResponse.json(updated);
 }

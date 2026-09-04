@@ -111,6 +111,7 @@ export async function GET(req: NextRequest) {
         name: row.name,
         email: row.email,
         phone: row.phone,
+        ticketDelivered: row.ticketDelivered,
         createdAt: row.createdAt.toISOString(),
         seatIds: row.seats.map((s) => s.seatId),
         seatLabels: row.seats.map((s) => `${s.seat.section} ${s.seat.row}-${s.seat.number}`),
@@ -183,6 +184,7 @@ export async function PATCH(req: NextRequest) {
       if (typeof data.name === "string") patch.name = data.name;
       if (typeof data.email === "string") patch.email = data.email;
       if (typeof data.phone === "string") patch.phone = data.phone;
+      if (typeof data.ticketDelivered === "boolean") patch.ticketDelivered = data.ticketDelivered;
       const updated = await prisma.registration.update({ where: { id }, data: patch });
       return NextResponse.json({
         ...updated,
