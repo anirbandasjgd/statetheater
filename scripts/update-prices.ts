@@ -9,10 +9,12 @@ if (!process.env.DATABASE_URL) {
 const prisma = new PrismaClient();
 
 async function main() {
-  const seats = await prisma.seat.findMany({ select: { id: true, section: true, row: true, block: true, price: true } });
+  const seats = await prisma.seat.findMany({
+    select: { id: true, section: true, row: true, block: true, type: true, price: true },
+  });
   const updates = new Map<number, string[]>();
   for (const seat of seats) {
-    const next = priceFor(seat.section, seat.row, seat.block);
+    const next = priceFor(seat.section, seat.row, seat.block, seat.type);
     if (next === seat.price) continue;
     const ids = updates.get(next) ?? [];
     ids.push(seat.id);

@@ -39,18 +39,19 @@ async function main() {
       id = `${id}:${s.x.toFixed(1)}:${s.y.toFixed(1)}`;
     }
     usedIds.add(id);
+    const type = isHoldSeat(s.section, s.row, s.number)
+      ? "hold"
+      : isAdaSeat(s.section, s.row, s.number, s.block)
+        ? "ada"
+        : s.type;
     return {
       id,
       section: s.section,
       block: s.block,
       row: s.row,
       number: s.number,
-      type: isHoldSeat(s.section, s.row, s.number)
-        ? "hold"
-        : isAdaSeat(s.section, s.row, s.number, s.block)
-          ? "ada"
-          : s.type,
-      price: priceFor(s.section, s.row, s.block),
+      type,
+      price: priceFor(s.section, s.row, s.block, type),
       x: s.x,
       y: s.y,
       status:

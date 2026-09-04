@@ -130,11 +130,11 @@ function PriceLegend({ section }: { section: Section }) {
     section === "orchestra"
       ? [
           { tier: "VIP", label: "VIP PA–D", price: "$0" },
-          { tier: "Platinum", label: "Platinum E–P", price: "$125" },
-          { tier: "Gold", label: "Gold Q–DD", price: "$75" },
+          { tier: "Platinum", label: "Platinum E–O", price: "$125" },
+          { tier: "Gold", label: "Gold P–DD", price: "$75" },
         ]
       : [
-          { tier: "Gold", label: "Gold A–C", price: "$75" },
+          { tier: "Platinum", label: "Platinum A–C", price: "$125" },
           { tier: "Silver", label: "Silver D–V", price: "$50" },
           { tier: "Student", label: "Student W–CC", price: "$40" },
           { tier: "Box", label: "Box Left/Right", price: "$1000" },
@@ -153,6 +153,7 @@ function PriceLegend({ section }: { section: Section }) {
           </li>
         );
       })}
+      <li className="flex items-center text-[#f0d49a]/55">ADA / companion in Platinum &amp; Gold $40</li>
     </ul>
   );
 }

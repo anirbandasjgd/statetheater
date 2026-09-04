@@ -1,8 +1,8 @@
 export type AssignPool = "platinum" | "gold" | "silver" | "student";
 
 export const POOL_LABEL: Record<AssignPool, string> = {
-  platinum: "Orchestra Platinum",
-  gold: "Orchestra Gold, then Balcony Gold",
+  platinum: "Orchestra Platinum, then Balcony Platinum",
+  gold: "Orchestra Gold",
   silver: "Balcony Silver",
   student: "Balcony Student",
 };

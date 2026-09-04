@@ -183,10 +183,10 @@ function seatInPool(seat: DbSeat, pool: AssignPool) {
   if (seat.type === "hold" || seat.type === "ada" || seat.type === "companion") return false;
   const tier = tierFor(seat.section, seat.row, seat.block);
   if (tier === "VIP" || tier === "Box") return false;
-  if (pool === "platinum") return seat.section === "orchestra" && tier === "Platinum";
+  if (pool === "platinum") return tier === "Platinum";
   if (pool === "silver") return seat.section === "balcony" && tier === "Silver";
   if (pool === "student") return seat.section === "balcony" && tier === "Student";
-  return tier === "Gold" && (seat.section === "orchestra" || seat.section === "balcony");
+  return tier === "Gold";
 }
 
 function medianX(seats: DbSeat[]) {
@@ -263,7 +263,7 @@ function takeTogether(seats: DbSeat[], n: number, layout: DbSeat[]): DbSeat[] | 
 }
 
 function takePartySeats(open: DbSeat[], n: number, pool: AssignPool, layout: DbSeat[]): DbSeat[] | null {
-  if (pool === "gold") {
+  if (pool === "platinum" || pool === "gold") {
     const orchestra = open.filter((seat) => seat.section === "orchestra");
     const balcony = open.filter((seat) => seat.section === "balcony");
     return takeTogether(orchestra, n, layout) ?? takeTogether(balcony, n, layout);

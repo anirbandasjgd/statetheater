@@ -66,6 +66,9 @@ function TierRow({ row }: { row: InventoryTierRow }) {
               color="#22c55e"
             />
           ) : null}
+          {row.tier === "Platinum" || row.tier === "Gold" ? (
+            <span className="text-[#f0d49a]/45">ADA / companion $40</span>
+          ) : null}
         </p>
       ) : null}
     </li>

@@ -1,4 +1,4 @@
-/** Orchestra ADA / accessible seats — selectable at the row’s tier price. */
+/** Orchestra ADA / accessible seats — Platinum and Gold ADA are $40; VIP keeps the row price. */
 export const ORCHESTRA_ADA: { row: string; number: number }[] = [
   { row: "B", number: 101 },
   { row: "B", number: 1 },

@@ -56,15 +56,15 @@ const LAYOUT: {
     label: "Orchestra",
     tiers: [
       { tier: "VIP", note: "PA–D", sampleRow: "A" },
-      { tier: "Platinum", note: "E–P", sampleRow: "E" },
-      { tier: "Gold", note: "Q–DD", sampleRow: "Q" },
+      { tier: "Platinum", note: "E–O", sampleRow: "E" },
+      { tier: "Gold", note: "P–DD", sampleRow: "P" },
     ],
   },
   {
     section: "balcony",
     label: "Balcony",
     tiers: [
-      { tier: "Gold", note: "A–C", sampleRow: "A" },
+      { tier: "Platinum", note: "A–C", sampleRow: "A" },
       { tier: "Silver", note: "D–V", sampleRow: "D" },
       { tier: "Student", note: "W–CC", sampleRow: "W" },
       { tier: "Box", note: "Left/Right", sampleRow: "A", sampleBlock: "boxLeft" },

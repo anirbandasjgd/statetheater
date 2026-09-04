@@ -6,8 +6,8 @@ export const ROW_ORDER = [
 ] as const;
 
 const ORCHESTRA_VIP = new Set(["PA", "PB", "A", "B", "C", "D"]);
-const ORCHESTRA_PLATINUM = new Set(["E", "F", "G", "H", "J", "K", "L", "M", "N", "O", "P"]);
-const BALCONY_GOLD = new Set(["A", "B", "C"]);
+const ORCHESTRA_PLATINUM = new Set(["E", "F", "G", "H", "J", "K", "L", "M", "N", "O"]);
+const BALCONY_PLATINUM = new Set(["A", "B", "C"]);
 const BALCONY_SILVER = new Set(["D", "E", "F", "G", "H", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V"]);
 const BALCONY_BOX_BLOCKS = new Set(["boxLeft", "boxRight", "vipBoxLeft", "vipBoxRight"]);
 
@@ -29,19 +29,17 @@ export function tierFor(section: string, row: string, block = ""): SeatTier {
     if (ORCHESTRA_PLATINUM.has(row)) return "Platinum";
     return "Gold";
   }
-  if (BALCONY_GOLD.has(row)) return "Gold";
+  if (BALCONY_PLATINUM.has(row)) return "Platinum";
   if (BALCONY_SILVER.has(row)) return "Silver";
   return "Student";
 }
 
-export function priceFor(section: string, row: string, block = ""): number {
+export function priceFor(section: string, row: string, block = "", type = ""): number {
   const tier = tierFor(section, row, block);
+  if ((type === "ada" || type === "companion") && (tier === "Platinum" || tier === "Gold")) return 40;
   if (tier === "Box") return 1000;
-  if (section === "orchestra") {
-    if (tier === "VIP") return 0;
-    if (tier === "Platinum") return 125;
-    return 75;
-  }
+  if (tier === "VIP") return 0;
+  if (tier === "Platinum") return 125;
   if (tier === "Gold") return 75;
   if (tier === "Silver") return 50;
   return 40;

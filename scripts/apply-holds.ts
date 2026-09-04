@@ -48,7 +48,7 @@ async function main() {
           row: s.row,
           number: s.number,
           type: hold ? "hold" : ada ? "ada" : s.type,
-          price: priceFor(s.section, s.row, s.block),
+          price: priceFor(s.section, s.row, s.block, hold ? "hold" : ada ? "ada" : s.type),
           x: s.x,
           y: s.y,
           status: hold || kill ? "blocked" : "available",
