@@ -46,9 +46,14 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
             same name appears more than once.
           </p>
         </div>
-        <a href="/api/registrations/assign" className="text-sm text-[#f0d49a]/80 hover:text-[#f0d49a]">
-          Download template
-        </a>
+        <div className="flex flex-col items-end gap-2">
+          <a href="/api/registrations/assign" className="text-sm text-[#f0d49a]/80 hover:text-[#f0d49a]">
+            Download template
+          </a>
+          <a href="/api/registrations/export" className="text-sm text-[#f0d49a]/80 hover:text-[#f0d49a]">
+            Download assigned seats
+          </a>
+        </div>
       </div>
 
       <div className="mt-4 flex flex-wrap items-center gap-3">
