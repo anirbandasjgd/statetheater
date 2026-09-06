@@ -44,3 +44,10 @@ export function priceFor(section: string, row: string, block = "", type = ""): n
   if (tier === "Silver") return 50;
   return 40;
 }
+
+export function sameSeatBand(
+  a: { section: string; row: string; block: string },
+  b: { section: string; row: string; block: string },
+) {
+  return a.section === b.section && tierFor(a.section, a.row, a.block) === tierFor(b.section, b.row, b.block);
+}

@@ -27,7 +27,7 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
     }
     setPreview(data);
     if (apply) {
-      setMessage(`Assigned seats for ${data.imported} guest${data.imported === 1 ? "" : "s"}.`);
+      setMessage(`Assigned ${data.imported} seat${data.imported === 1 ? "" : "s"}.`);
       await onAssigned();
     }
   }
@@ -42,7 +42,8 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
             <code className="text-[#f0d49a]">Attendee Number</code>,{" "}
             <code className="text-[#f0d49a]">Account Name</code>, and{" "}
             <code className="text-[#f0d49a]">Tier Name</code>. Blank dates continue the party above.
-            People who share a timestamp are seated together.
+            People who share a timestamp become one registration with adjacent seats, even when the
+            same name appears more than once.
           </p>
         </div>
         <a href="/api/registrations/assign" className="text-sm text-[#f0d49a]/80 hover:text-[#f0d49a]">
@@ -95,6 +96,18 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
       {preview ? (
         <>
           <ul className="mt-4 flex flex-wrap gap-3 text-xs text-[#f4ece0]/75">
+            {preview.ready > 0 ? (
+              <li className="rounded-md border border-[#3a2a22] px-3 py-2">
+                <span className="block text-[#d4a24a]">Seats</span>
+                {preview.ready} to assign
+              </li>
+            ) : null}
+            {preview.skippedExisting > 0 ? (
+              <li className="rounded-md border border-[#d4a24a]/40 px-3 py-2 text-[#f0d49a]">
+                <span className="block text-[#d4a24a]">Already seated</span>
+                {preview.skippedExisting} skipped
+              </li>
+            ) : null}
             {preview.pools.map((pool) => (
               <li key={pool.pool} className="rounded-md border border-[#3a2a22] px-3 py-2">
                 <span className="block text-[#d4a24a]">{pool.label}</span>
@@ -124,8 +137,16 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
                     <td className="px-3 py-2 align-top text-[#f4ece0]/70">{row.excelTier || "—"}</td>
                     <td className="px-3 py-2 align-top text-[#f4ece0]/70">{row.assignedTier || "—"}</td>
                     <td className="px-3 py-2 align-top">{row.seatLabel ?? "—"}</td>
-                    <td className={`px-3 py-2 align-top ${row.error ? "text-red-300" : "text-[#b7e0a8]"}`}>
-                      {row.error ?? "Ready"}
+                    <td
+                      className={`px-3 py-2 align-top ${
+                        row.error === "Already has seats."
+                          ? "text-[#f0d49a]"
+                          : row.error
+                            ? "text-red-300"
+                            : "text-[#b7e0a8]"
+                      }`}
+                    >
+                      {row.error === "Already has seats." ? "Skipped" : (row.error ?? "Ready")}
                     </td>
                   </tr>
                 ))}

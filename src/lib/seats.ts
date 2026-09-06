@@ -12,6 +12,9 @@ export type PublicSeat = {
   x: number;
   y: number;
   status: "available" | "sold" | "blocked";
+  holderName?: string | null;
+  registrationId?: string | null;
+  ticketDelivered?: boolean;
 };
 
 export const BLOCK_LABEL: Record<string, string> = {

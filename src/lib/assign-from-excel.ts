@@ -27,7 +27,8 @@ export type AssignPreviewRow = {
   excelTier: string;
   assignedTier: string;
   poolLabel: string;
-  seatId: string | null;
+  partyKey: string;
+  seatIds: string[];
   seatLabel: string | null;
   error: string | null;
 };
@@ -42,6 +43,7 @@ export type PoolSummary = {
 
 export type AssignPreview = {
   existingRegistrations: number;
+  skippedExisting: number;
   warning: string | null;
   rows: AssignPreviewRow[];
   ready: number;
@@ -273,6 +275,70 @@ function takePartySeats(open: DbSeat[], n: number, pool: AssignPool, layout: DbS
 
 type Party = { name: string; pool: AssignPool; createdAt: string; tickets: Ticket[] };
 
+function partyKeyFor(ticket: Pick<Ticket, "createdAt" | "name" | "pool">) {
+  if (!ticket.pool) return "";
+  return ticket.createdAt
+    ? `${ticket.createdAt}|${ticket.pool}`
+    : `${ticket.name.toLowerCase()}|${ticket.pool}`;
+}
+
+function uniqueGuestNames(names: string[]) {
+  const seen = new Set<string>();
+  const ordered: string[] = [];
+  for (const raw of names) {
+    const name = raw.trim();
+    if (!name) continue;
+    const key = name.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    ordered.push(name);
+  }
+  return ordered.join(", ");
+}
+
+function previewRowForTickets(
+  tickets: Ticket[],
+  assigned: DbSeat[],
+  error: string | null,
+  poolLabel: string,
+): AssignPreviewRow {
+  const first = tickets[0]!;
+  return {
+    name: uniqueGuestNames(tickets.map((ticket) => ticket.name)),
+    attendeeNumber: tickets.map((ticket) => ticket.attendeeNumber).filter(Boolean).join(", "),
+    createdAt: formatCreatedAt(first.createdAt),
+    excelTier: uniqueGuestNames(tickets.map((ticket) => ticket.excelTier)),
+    assignedTier: assigned.length ? uniqueGuestNames(assigned.map((seat) => assignedTierLabel(seat))) : "—",
+    poolLabel,
+    partyKey: partyKeyFor(first) || `${first.createdAt}|${first.name}|${first.attendeeNumber}`,
+    seatIds: assigned.map((seat) => seat.id),
+    seatLabel: assigned.length
+      ? assigned
+          .map((seat) =>
+            seatLabel({
+              section: seat.section as "orchestra" | "balcony",
+              block: seat.block,
+              row: seat.row,
+              number: seat.number,
+            }),
+          )
+          .join(", ")
+      : null,
+    error,
+  };
+}
+
+function seatedNameSet(existing: { name: string }[]) {
+  const names = new Set<string>();
+  for (const row of existing) {
+    for (const part of row.name.split(",")) {
+      const name = part.trim().toLowerCase();
+      if (name) names.add(name);
+    }
+  }
+  return names;
+}
+
 function groupParties(tickets: Ticket[]): { parties: Party[]; skipped: Ticket[] } {
   const parties = new Map<string, Party>();
   const order: string[] = [];
@@ -282,9 +348,7 @@ function groupParties(tickets: Ticket[]): { parties: Party[]; skipped: Ticket[] 
       skipped.push(ticket);
       continue;
     }
-    const key = ticket.createdAt
-      ? `${ticket.createdAt}|${ticket.pool}`
-      : `${ticket.name.toLowerCase()}|${ticket.pool}`;
+    const key = partyKeyFor(ticket);
     const existing = parties.get(key);
     if (existing) {
       existing.tickets.push(ticket);
@@ -303,7 +367,7 @@ function groupParties(tickets: Ticket[]): { parties: Party[]; skipped: Ticket[] 
 
 export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffer): Promise<AssignPreview> {
   const tickets = await parseAttendeeWorkbook(buffer);
-  const [seats, existingRegistrations] = await Promise.all([
+  const [seats, existing] = await Promise.all([
     prisma.seat.findMany({
       select: {
         id: true,
@@ -318,8 +382,17 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
         y: true,
       },
     }),
-    prisma.registration.count(),
+    prisma.registration.findMany({ select: { name: true } }),
   ]);
+  const seatedNames = seatedNameSet(existing);
+  for (const ticket of tickets) {
+    if (ticket.error || !ticket.pool) continue;
+    if (seatedNames.has(ticket.name.trim().toLowerCase())) {
+      ticket.error = "Already has seats.";
+    }
+  }
+  const existingRegistrations = existing.length;
+  const skippedExisting = tickets.filter((ticket) => ticket.error === "Already has seats.").length;
 
   const remaining = new Map<AssignPool, DbSeat[]>(
     (["platinum", "gold", "silver", "student"] as AssignPool[]).map((pool) => [
@@ -353,76 +426,50 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
     );
   }
 
-  const rows: AssignPreviewRow[] = tickets.map((ticket) => {
-    if (skipped.includes(ticket) || ticket.error || !ticket.pool) {
-      return {
-        name: ticket.name,
-        attendeeNumber: ticket.attendeeNumber,
-        createdAt: formatCreatedAt(ticket.createdAt),
-        excelTier: ticket.excelTier,
-        assignedTier: "—",
-        poolLabel: ticket.excelTier || "Unknown",
-        seatId: null,
-        seatLabel: null,
-        error: ticket.error ?? "Unknown tier.",
-      };
+  const emitted = new Set<string>();
+  const rows: AssignPreviewRow[] = [];
+  for (const ticket of tickets) {
+    const party = parties.find((item) => item.tickets.includes(ticket));
+    if (party) {
+      const key = partyKeyFor(party.tickets[0]!);
+      if (emitted.has(key)) continue;
+      emitted.add(key);
+      const fail = failedParties.get(party) ?? null;
+      const assigned = party.tickets
+        .map((item) => assignedByTicket.get(item))
+        .filter((seat): seat is DbSeat => Boolean(seat));
+      rows.push(
+        previewRowForTickets(
+          party.tickets,
+          assigned,
+          fail,
+          POOL_LABEL[party.pool],
+        ),
+      );
+      continue;
     }
-    const party = parties.find((p) => p.tickets.includes(ticket));
-    const fail = party ? failedParties.get(party) : null;
-    if (fail) {
-      return {
-        name: ticket.name,
-        attendeeNumber: ticket.attendeeNumber,
-        createdAt: formatCreatedAt(ticket.createdAt),
-        excelTier: ticket.excelTier,
-        assignedTier: "—",
-        poolLabel: POOL_LABEL[ticket.pool],
-        seatId: null,
-        seatLabel: null,
-        error: fail,
-      };
-    }
-    const next = assignedByTicket.get(ticket);
-    if (!next) {
-      return {
-        name: ticket.name,
-        attendeeNumber: ticket.attendeeNumber,
-        createdAt: formatCreatedAt(ticket.createdAt),
-        excelTier: ticket.excelTier,
-        assignedTier: "—",
-        poolLabel: POOL_LABEL[ticket.pool],
-        seatId: null,
-        seatLabel: null,
-        error: `No remaining ${POOL_LABEL[ticket.pool]} seats.`,
-      };
-    }
-    return {
-      name: ticket.name,
-      attendeeNumber: ticket.attendeeNumber,
-      createdAt: formatCreatedAt(ticket.createdAt),
-      excelTier: ticket.excelTier,
-      assignedTier: assignedTierLabel(next),
-      poolLabel: POOL_LABEL[ticket.pool],
-      seatId: next.id,
-      seatLabel: seatLabel({
-        section: next.section as "orchestra" | "balcony",
-        block: next.block,
-        row: next.row,
-        number: next.number,
-      }),
-      error: null,
-    };
-  });
+    const key = partyKeyFor(ticket) || `__${ticket.createdAt}|${ticket.name}|${ticket.attendeeNumber}`;
+    if (emitted.has(key)) continue;
+    emitted.add(key);
+    const group = skipped.filter(
+      (item) => (partyKeyFor(item) || `__${item.createdAt}|${item.name}|${item.attendeeNumber}`) === key,
+    );
+    rows.push(
+      previewRowForTickets(
+        group.length ? group : [ticket],
+        [],
+        ticket.error ?? "Unknown tier.",
+        ticket.pool ? POOL_LABEL[ticket.pool] : ticket.excelTier || "Unknown",
+      ),
+    );
+  }
 
   const pools: PoolSummary[] = (["platinum", "gold", "silver", "student"] as AssignPool[]).map((pool) => {
-    let assigned = 0;
-    tickets.forEach((ticket, index) => {
-      if (ticket.pool === pool && !rows[index]?.error) assigned += 1;
-    });
+    const assigned = tickets.filter((ticket) => ticket.pool === pool && assignedByTicket.has(ticket)).length;
     return {
       pool,
       label: POOL_LABEL[pool],
-      tickets: tickets.filter((ticket) => ticket.pool === pool).length,
+      tickets: tickets.filter((ticket) => ticket.pool === pool && ticket.error !== "Already has seats.").length,
       assigned,
       remainingSeats: (starting.get(pool) ?? 0) - assigned,
     };
@@ -430,52 +477,50 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
 
   return {
     existingRegistrations,
+    skippedExisting,
     warning:
-      existingRegistrations > 0
-        ? `${existingRegistrations} registration${existingRegistrations === 1 ? "" : "s"} already exist. New seats will be taken from what is still available. Re-uploading can assign extra seats to the same names.`
-        : null,
+      skippedExisting > 0
+        ? `${skippedExisting} ticket${skippedExisting === 1 ? "" : "s"} skipped because those names already have seats. Only unseated names will be assigned.`
+        : existingRegistrations > 0
+          ? `${existingRegistrations} registration${existingRegistrations === 1 ? "" : "s"} already exist. New seats will be taken from what is still available.`
+          : null,
     rows,
-    ready: rows.filter((row) => !row.error).length,
-    failed: rows.filter((row) => row.error).length,
+    ready: rows.filter((row) => !row.error).reduce((sum, row) => sum + row.seatIds.length, 0),
+    failed: rows.filter((row) => row.error && row.error !== "Already has seats.").length,
     pools,
   };
 }
 
 export async function applyAssignFromExcel(prisma: PrismaClient, buffer: Buffer) {
   const preview = await previewAssignFromExcel(prisma, buffer);
-  const ready = preview.rows.filter((row) => !row.error && row.seatId);
+  const ready = preview.rows.filter((row) => !row.error && row.seatIds.length > 0);
   if (ready.length === 0) return { ...preview, imported: 0 };
 
-  const byName = new Map<string, { name: string; seatIds: string[] }>();
-  for (const row of ready) {
-    const cur = byName.get(row.name) ?? { name: row.name, seatIds: [] };
-    cur.seatIds.push(row.seatId!);
-    byName.set(row.name, cur);
-  }
-
   await prisma.$transaction(async (tx) => {
-    for (const guest of byName.values()) {
-      const seats = await tx.seat.findMany({ where: { id: { in: guest.seatIds } } });
+    for (const row of ready) {
+      const seatIds = row.seatIds;
+      const seats = await tx.seat.findMany({ where: { id: { in: seatIds } } });
       const taken = seats.filter((seat) => seat.status === "sold" || seat.status === "blocked");
-      if (taken.length) {
-        throw new Error(
-          `${guest.name}: ${taken.map((seat) => `${seat.row}-${seat.number}`).join(", ")} is no longer available.`,
-        );
+      if (taken.length || seats.length !== seatIds.length) {
+        throw new Error(`${row.name}: one of those seats is no longer available.`);
       }
       await tx.registration.create({
         data: {
-          name: guest.name,
+          name: row.name,
           email: PLACEHOLDER_EMAIL,
           phone: PLACEHOLDER_PHONE,
-          seats: { create: guest.seatIds.map((seatId) => ({ seatId })) },
+          seats: { create: seatIds.map((seatId) => ({ seatId })) },
         },
       });
       await tx.seat.updateMany({
-        where: { id: { in: guest.seatIds } },
+        where: { id: { in: seatIds } },
         data: { status: "sold", holdUntil: null },
       });
     }
   });
 
-  return { ...preview, imported: byName.size };
+  return {
+    ...preview,
+    imported: ready.reduce((sum, row) => sum + row.seatIds.length, 0),
+  };
 }

@@ -9,6 +9,9 @@ type Props = {
   section: Section;
   seats: PublicSeat[];
   selectedIds: string[];
+  sourceIds?: string[];
+  replacementIds?: string[];
+  moveMode?: boolean;
   onHover: (seat: PublicSeat | null) => void;
   onToggle: (seat: PublicSeat) => void;
 };
@@ -27,8 +30,19 @@ function compactAxis(values: number[]) {
   return { map, size: cursor - 1 };
 }
 
-export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Props) {
+export function SeatMap({
+  section,
+  seats,
+  selectedIds,
+  sourceIds = [],
+  replacementIds = [],
+  moveMode = false,
+  onHover,
+  onToggle,
+}: Props) {
   const selected = new Set(selectedIds);
+  const sources = new Set(sourceIds);
+  const replacements = new Set(replacementIds);
   const layout = useMemo(() => {
     if (seats.length === 0) {
       return {
@@ -89,21 +103,28 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
         ))}
         {seats.map((seat) => {
           const isSelected = selected.has(seat.id);
+          const isSource = sources.has(seat.id);
+          const isReplacement = replacements.has(seat.id);
           const taken = seat.status !== "available";
+          const canMoveClick =
+            moveMode && (seat.status === "sold" || (seat.status === "available" && seat.type !== "hold"));
+          const disabled = moveMode ? !canMoveClick : taken;
           const suffix = seat.type === "companion" ? "c" : seat.type === "transfer" ? "t" : "";
+          const guest = seat.holderName ? ` · ${seat.holderName}` : "";
+          const issued = seat.ticketDelivered ? " · ticket issued" : "";
           return (
             <button
               key={seat.id}
               type="button"
-              disabled={taken}
-              aria-pressed={isSelected}
-              aria-label={`${seatLabel(seat)}${seat.type === "ada" ? ", ADA" : ""}${seat.type === "hold" ? ", STNJ hold" : ""}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}`}
-              title={`${seatLabel(seat)} · ${tierFor(seat.section, seat.row, seat.block)} · ${formatPrice(seat.price)}`}
-              className={seatClass(seat, isSelected)}
+              disabled={disabled}
+              aria-pressed={isSelected || isSource || isReplacement}
+              aria-label={`${seatLabel(seat)}${seat.type === "ada" ? ", ADA" : ""}${seat.type === "hold" ? ", STNJ hold" : ""}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}${guest}${issued}`}
+              title={`${seatLabel(seat)} · ${tierFor(seat.section, seat.row, seat.block)} · ${formatPrice(seat.price)}${guest}${issued}`}
+              className={seatClass(seat, isSelected, { moveMode, isSource, isReplacement })}
               style={{
                 gridColumn: (layout.colOf.get(seat.x) ?? 1) + 1,
                 gridRow: layout.rowOf.get(seat.y) ?? 1,
-                ...seatTint(seat, isSelected),
+                ...seatTint(seat, isSelected || isSource || isReplacement),
               }}
               onMouseEnter={() => onHover(seat)}
               onMouseLeave={() => onHover(null)}
@@ -129,11 +150,22 @@ export function SeatMap({ section, seats, selectedIds, onHover, onToggle }: Prop
   );
 }
 
-function seatClass(seat: PublicSeat, isSelected: boolean) {
+function seatClass(
+  seat: PublicSeat,
+  isSelected: boolean,
+  flags: { moveMode: boolean; isSource: boolean; isReplacement: boolean },
+) {
   const base =
     "flex items-center justify-center rounded-[3px] text-[10px] leading-none tabular-nums border outline-none [scroll-margin:0]";
+  if (flags.isSource) {
+    return `${base} cursor-pointer border-2 border-[#67e8f9] bg-[#155e75] text-[#ecfeff]`;
+  }
+  if (flags.isReplacement) {
+    return `${base} cursor-pointer border-2 border-[#f8f1e3] bg-[#d4a24a] text-[#1a100c]`;
+  }
   if (seat.status === "sold") {
-    return `${base} cursor-not-allowed border-[#f0d49a] bg-[#d4a24a] text-[#1a100c] opacity-80`;
+    const pointer = flags.moveMode ? "cursor-pointer" : "cursor-not-allowed";
+    return `${base} ${pointer} border-[#f0d49a] bg-[#d4a24a] text-[#1a100c] opacity-80`;
   }
   if (seat.status === "blocked") {
     if (seat.type === "hold") {
