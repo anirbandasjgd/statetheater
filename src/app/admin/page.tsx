@@ -6,6 +6,7 @@ import { AssignFromExcel } from "@/components/AssignFromExcel";
 import { DeliveredCheckbox } from "@/components/DeliveredCheckbox";
 import type { InventorySection } from "@/lib/inventory";
 import { formatRegisteredAt } from "@/lib/datetime";
+import { tierFor } from "@/lib/pricing";
 import { formatPrice, seatLabel, type Section } from "@/lib/seats";
 
 type Row = {
@@ -26,6 +27,19 @@ type Row = {
     type: string;
   }[];
 };
+
+function assignedTierLabel(seats: Row["seats"]) {
+  const seen = new Set<string>();
+  const labels: string[] = [];
+  for (const seat of seats) {
+    const section = seat.section === "orchestra" ? "Orchestra" : "Balcony";
+    const label = `${section} ${tierFor(seat.section, seat.row, seat.block)}`;
+    if (seen.has(label)) continue;
+    seen.add(label);
+    labels.push(label);
+  }
+  return labels.join(", ") || "—";
+}
 
 export default function AdminPage() {
   const [rows, setRows] = useState<Row[]>([]);
@@ -128,11 +142,12 @@ export default function AdminPage() {
               </p>
             ) : null}
             <div className="mt-3 overflow-x-auto rounded-xl border border-[#3a2a22]">
-              <table className="w-full min-w-[720px] text-left text-sm">
+              <table className="w-full min-w-[840px] text-left text-sm">
                 <thead className="bg-[#1d1412] text-[#d4a24a]">
                   <tr>
                     <th className="px-4 py-3 font-medium">Guest</th>
                     <th className="px-4 py-3 font-medium">Contact</th>
+                    <th className="px-4 py-3 font-medium">Assigned tier</th>
                     <th className="px-4 py-3 font-medium">Seats</th>
                     <th className="px-4 py-3 font-medium">Total</th>
                     <th className="px-4 py-3 font-medium">Delivered</th>
@@ -141,7 +156,7 @@ export default function AdminPage() {
                 <tbody>
                   {visible.length === 0 ? (
                     <tr>
-                      <td colSpan={5} className="px-4 py-8 text-center text-[#f0d49a]/60">
+                      <td colSpan={6} className="px-4 py-8 text-center text-[#f0d49a]/60">
                         No registrations match that name or email.
                       </td>
                     </tr>
@@ -158,6 +173,7 @@ export default function AdminPage() {
                         <div>{row.email}</div>
                         <div className="text-[#f0d49a]/70">{row.phone}</div>
                       </td>
+                      <td className="px-4 py-3 align-top text-[#f4ece0]/80">{assignedTierLabel(row.seats)}</td>
                       <td className="px-4 py-3 align-top">
                         <ul className="space-y-1">
                           {row.seats.map((seat) => (
