@@ -5,6 +5,7 @@ import { InventorySummary } from "@/components/InventorySummary";
 import { AssignFromExcel } from "@/components/AssignFromExcel";
 import { DeliveredCheckbox } from "@/components/DeliveredCheckbox";
 import type { InventorySection } from "@/lib/inventory";
+import { formatRegisteredAt } from "@/lib/datetime";
 import { formatPrice, seatLabel, type Section } from "@/lib/seats";
 
 type Row = {
@@ -150,7 +151,7 @@ export default function AdminPage() {
                       <td className="px-4 py-3 align-top">
                         <div>{row.name}</div>
                         <div className="text-xs text-[#f0d49a]/60">
-                          {new Date(row.createdAt).toLocaleString()}
+                          {formatRegisteredAt(row.createdAt)}
                         </div>
                       </td>
                       <td className="px-4 py-3 align-top">

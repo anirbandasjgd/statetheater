@@ -2,6 +2,7 @@
 
 import { FormEvent, useCallback, useEffect, useState } from "react";
 import { DeliveredCheckbox } from "@/components/DeliveredCheckbox";
+import { formatRegisteredAt } from "@/lib/datetime";
 
 type TableId = "seat" | "registration" | "registrationSeat";
 type TableMeta = { id: TableId; name: string; count: number };
@@ -382,7 +383,7 @@ function RegistrationEditor({
           onChange={(e) => setName(e.target.value)}
           className="w-full rounded border border-[#3a2a22] bg-[#140c0c] px-2 py-1 text-[#f4ece0]"
         />
-        <div className="mt-1 text-xs text-[#f0d49a]/50">{new Date(row.createdAt).toLocaleString()}</div>
+        <div className="mt-1 text-xs text-[#f0d49a]/50">{formatRegisteredAt(row.createdAt)}</div>
         <div className="text-xs text-[#f0d49a]/40">{row.id}</div>
       </td>
       <td className="px-3 py-2 align-top">

@@ -27,7 +27,14 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
     }
     setPreview(data);
     if (apply) {
-      setMessage(`Assigned ${data.imported} seat${data.imported === 1 ? "" : "s"}.`);
+      const parts: string[] = [];
+      if (data.imported > 0) {
+        parts.push(`Assigned ${data.imported} seat${data.imported === 1 ? "" : "s"}`);
+      }
+      if (data.skippedExisting > 0) {
+        parts.push("updated registration dates from the sheet");
+      }
+      setMessage(parts.length ? `${parts.join("; ")}.` : "Nothing to assign.");
       await onAssigned();
     }
   }
@@ -43,7 +50,8 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
             <code className="text-[#f0d49a]">Account Name</code>, and{" "}
             <code className="text-[#f0d49a]">Tier Name</code>. Blank dates continue the party above.
             People who share a timestamp become one registration with adjacent seats, even when the
-            same name appears more than once.
+            same name appears more than once. Extra tickets for someone who already has seats are
+            still assigned; existing seats stay put and only the sheet date is updated.
           </p>
         </div>
         <div className="flex flex-col items-end gap-2">
@@ -86,11 +94,15 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
         </button>
         <button
           type="button"
-          disabled={busy || !preview || preview.ready === 0}
+          disabled={busy || !preview || (preview.ready === 0 && preview.skippedExisting === 0)}
           className="rounded-full bg-[#d4a24a] px-4 py-1.5 text-sm font-medium text-[#1a100c] disabled:opacity-40"
           onClick={() => void run(true)}
         >
-          Assign {preview && preview.ready > 0 ? `${preview.ready} seats` : "seats"}
+          {preview && preview.ready > 0
+            ? `Assign ${preview.ready} seats`
+            : preview && preview.skippedExisting > 0
+              ? "Update dates"
+              : "Assign seats"}
         </button>
       </div>
 
@@ -109,8 +121,8 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
             ) : null}
             {preview.skippedExisting > 0 ? (
               <li className="rounded-md border border-[#d4a24a]/40 px-3 py-2 text-[#f0d49a]">
-                <span className="block text-[#d4a24a]">Already seated</span>
-                {preview.skippedExisting} skipped
+                <span className="block text-[#d4a24a]">Already assigned</span>
+                {preview.skippedExisting} keep seats
               </li>
             ) : null}
             {preview.pools.map((pool) => (
@@ -151,7 +163,7 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
                             : "text-[#b7e0a8]"
                       }`}
                     >
-                      {row.error === "Already has seats." ? "Skipped" : (row.error ?? "Ready")}
+                      {row.error === "Already has seats." ? "Already assigned" : (row.error ?? "Ready")}
                     </td>
                   </tr>
                 ))}

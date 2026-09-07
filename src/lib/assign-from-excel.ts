@@ -1,6 +1,7 @@
 import ExcelJS from "exceljs";
 import type { PrismaClient } from "@prisma/client";
 import { attendeeSortValue, mapExcelTier, POOL_LABEL, type AssignPool } from "./attendee-tiers";
+import { excelDateToWallClock, excelRegisteredAt, formatWallClock, parseWallClock } from "./datetime";
 import { tierFor } from "./pricing";
 import { seatLabel } from "./seats";
 
@@ -24,6 +25,7 @@ export type AssignPreviewRow = {
   name: string;
   attendeeNumber: string;
   createdAt: string;
+  registeredAt: string;
   excelTier: string;
   assignedTier: string;
   poolLabel: string;
@@ -64,7 +66,7 @@ type Ticket = {
 function cellText(value: ExcelJS.CellValue | undefined) {
   if (value == null) return "";
   if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") return String(value).trim();
-  if (value instanceof Date) return value.toISOString();
+  if (value instanceof Date) return excelDateToWallClock(value);
   if (typeof value === "object" && "text" in value && typeof value.text === "string") return value.text.trim();
   if (typeof value === "object" && "richText" in value && Array.isArray(value.richText)) {
     return value.richText.map((part) => part.text).join("").trim();
@@ -165,10 +167,9 @@ export async function parseAttendeeWorkbook(buffer: Buffer): Promise<Ticket[]> {
 }
 
 function formatCreatedAt(value: string) {
-  if (!value) return "";
-  const ms = Date.parse(value);
-  if (!Number.isFinite(ms)) return value;
-  return new Date(ms).toLocaleString();
+  const clock = parseWallClock(value);
+  if (!clock) return value;
+  return formatWallClock(clock);
 }
 
 function assignedTierLabel(seat: Pick<DbSeat, "section" | "row" | "block">) {
@@ -307,6 +308,7 @@ function previewRowForTickets(
     name: uniqueGuestNames(tickets.map((ticket) => ticket.name)),
     attendeeNumber: tickets.map((ticket) => ticket.attendeeNumber).filter(Boolean).join(", "),
     createdAt: formatCreatedAt(first.createdAt),
+    registeredAt: first.createdAt,
     excelTier: uniqueGuestNames(tickets.map((ticket) => ticket.excelTier)),
     assignedTier: assigned.length ? uniqueGuestNames(assigned.map((seat) => assignedTierLabel(seat))) : "—",
     poolLabel,
@@ -328,15 +330,49 @@ function previewRowForTickets(
   };
 }
 
-function seatedNameSet(existing: { name: string }[]) {
-  const names = new Set<string>();
+function namesIn(value: string) {
+  return value
+    .split(",")
+    .map((part) => part.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+function registrationMatchesParty(registrationName: string, partyName: string) {
+  const existing = new Set(namesIn(registrationName));
+  return namesIn(partyName).some((name) => existing.has(name));
+}
+
+type ExistingGuest = { name: string; seats: { seat: DbSeat }[] };
+
+function claimedSeatCounts(existing: ExistingGuest[]) {
+  const claimed = new Map<string, number>();
   for (const row of existing) {
-    for (const part of row.name.split(",")) {
-      const name = part.trim().toLowerCase();
-      if (name) names.add(name);
+    const names = namesIn(row.name);
+    let seatsLeft = row.seats.length;
+    for (const name of names) {
+      if (seatsLeft <= 0) break;
+      claimed.set(name, (claimed.get(name) ?? 0) + 1);
+      seatsLeft -= 1;
+    }
+    if (seatsLeft > 0 && names[0]) {
+      claimed.set(names[0], (claimed.get(names[0]) ?? 0) + seatsLeft);
     }
   }
-  return names;
+  return claimed;
+}
+
+function existingSeatsForParty(partyName: string, existing: ExistingGuest[]) {
+  const out: DbSeat[] = [];
+  const seen = new Set<string>();
+  for (const guest of existing) {
+    if (!registrationMatchesParty(guest.name, partyName)) continue;
+    for (const link of guest.seats) {
+      if (seen.has(link.seat.id)) continue;
+      seen.add(link.seat.id);
+      out.push(link.seat);
+    }
+  }
+  return out;
 }
 
 function groupParties(tickets: Ticket[]): { parties: Party[]; skipped: Ticket[] } {
@@ -382,13 +418,38 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
         y: true,
       },
     }),
-    prisma.registration.findMany({ select: { name: true } }),
+    prisma.registration.findMany({
+      select: {
+        name: true,
+        seats: {
+          select: {
+            seat: {
+              select: {
+                id: true,
+                section: true,
+                block: true,
+                row: true,
+                number: true,
+                type: true,
+                status: true,
+                price: true,
+                x: true,
+                y: true,
+              },
+            },
+          },
+        },
+      },
+    }),
   ]);
-  const seatedNames = seatedNameSet(existing);
+  const remainingClaims = claimedSeatCounts(existing);
   for (const ticket of tickets) {
     if (ticket.error || !ticket.pool) continue;
-    if (seatedNames.has(ticket.name.trim().toLowerCase())) {
+    const key = ticket.name.trim().toLowerCase();
+    const have = remainingClaims.get(key) ?? 0;
+    if (have > 0) {
       ticket.error = "Already has seats.";
+      remainingClaims.set(key, have - 1);
     }
   }
   const existingRegistrations = existing.length;
@@ -454,10 +515,12 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
     const group = skipped.filter(
       (item) => (partyKeyFor(item) || `__${item.createdAt}|${item.name}|${item.attendeeNumber}`) === key,
     );
+    const groupTickets = group.length ? group : [ticket];
+    const alreadySeated = ticket.error === "Already has seats.";
     rows.push(
       previewRowForTickets(
-        group.length ? group : [ticket],
-        [],
+        groupTickets,
+        alreadySeated ? existingSeatsForParty(uniqueGuestNames(groupTickets.map((item) => item.name)), existing) : [],
         ticket.error ?? "Unknown tier.",
         ticket.pool ? POOL_LABEL[ticket.pool] : ticket.excelTier || "Unknown",
       ),
@@ -480,7 +543,7 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
     skippedExisting,
     warning:
       skippedExisting > 0
-        ? `${skippedExisting} ticket${skippedExisting === 1 ? "" : "s"} skipped because those names already have seats. Only unseated names will be assigned.`
+        ? `${skippedExisting} ticket${skippedExisting === 1 ? "" : "s"} already have seats; those registration dates will be updated from the sheet. Extra tickets for the same names will still be assigned.`
         : existingRegistrations > 0
           ? `${existingRegistrations} registration${existingRegistrations === 1 ? "" : "s"} already exist. New seats will be taken from what is still available.`
           : null,
@@ -494,7 +557,8 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
 export async function applyAssignFromExcel(prisma: PrismaClient, buffer: Buffer) {
   const preview = await previewAssignFromExcel(prisma, buffer);
   const ready = preview.rows.filter((row) => !row.error && row.seatIds.length > 0);
-  if (ready.length === 0) return { ...preview, imported: 0 };
+  const alreadySeated = preview.rows.filter((row) => row.error === "Already has seats.");
+  if (ready.length === 0 && alreadySeated.length === 0) return { ...preview, imported: 0 };
 
   await prisma.$transaction(async (tx) => {
     for (const row of ready) {
@@ -509,6 +573,7 @@ export async function applyAssignFromExcel(prisma: PrismaClient, buffer: Buffer)
           name: row.name,
           email: PLACEHOLDER_EMAIL,
           phone: PLACEHOLDER_PHONE,
+          createdAt: excelRegisteredAt(row.registeredAt) ?? new Date(),
           seats: { create: seatIds.map((seatId) => ({ seatId })) },
         },
       });
@@ -516,6 +581,20 @@ export async function applyAssignFromExcel(prisma: PrismaClient, buffer: Buffer)
         where: { id: { in: seatIds } },
         data: { status: "sold", holdUntil: null },
       });
+    }
+
+    if (alreadySeated.length > 0) {
+      const existing = await tx.registration.findMany({ select: { id: true, name: true } });
+      const stamped = new Set<string>();
+      for (const row of alreadySeated) {
+        const next = excelRegisteredAt(row.registeredAt);
+        if (!next) continue;
+        for (const guest of existing) {
+          if (stamped.has(guest.id) || !registrationMatchesParty(guest.name, row.name)) continue;
+          await tx.registration.update({ where: { id: guest.id }, data: { createdAt: next } });
+          stamped.add(guest.id);
+        }
+      }
     }
   });
 

@@ -1,5 +1,6 @@
 import ExcelJS from "exceljs";
 import type { PrismaClient } from "@prisma/client";
+import { formatRegisteredAt } from "./datetime";
 import { seatLabel } from "./seats";
 
 function sortSeats<T extends { section: string; x: number; y: number; row: string; number: number }>(seats: T[]) {
@@ -29,7 +30,7 @@ export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
   for (const row of registrations) {
     const seats = sortSeats(row.seats.map((link) => link.seat));
     const added = sheet.addRow({
-      registered: row.createdAt,
+      registered: formatRegisteredAt(row.createdAt),
       name: row.name,
       seats: seats
         .map((seat) =>
@@ -42,7 +43,7 @@ export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
         )
         .join(", "),
     });
-    added.getCell(1).numFmt = "m/d/yyyy h:mm:ss AM/PM";
+    added.getCell(1).alignment = { vertical: "middle" };
   }
 
   sheet.views = [{ state: "frozen", ySplit: 1 }];
