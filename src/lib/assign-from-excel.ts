@@ -330,51 +330,6 @@ function previewRowForTickets(
   };
 }
 
-function namesIn(value: string) {
-  return value
-    .split(",")
-    .map((part) => part.trim().toLowerCase())
-    .filter(Boolean);
-}
-
-function registrationMatchesParty(registrationName: string, partyName: string) {
-  const existing = new Set(namesIn(registrationName));
-  return namesIn(partyName).some((name) => existing.has(name));
-}
-
-type ExistingGuest = { name: string; seats: { seat: DbSeat }[] };
-
-function claimedSeatCounts(existing: ExistingGuest[]) {
-  const claimed = new Map<string, number>();
-  for (const row of existing) {
-    const names = namesIn(row.name);
-    let seatsLeft = row.seats.length;
-    for (const name of names) {
-      if (seatsLeft <= 0) break;
-      claimed.set(name, (claimed.get(name) ?? 0) + 1);
-      seatsLeft -= 1;
-    }
-    if (seatsLeft > 0 && names[0]) {
-      claimed.set(names[0], (claimed.get(names[0]) ?? 0) + seatsLeft);
-    }
-  }
-  return claimed;
-}
-
-function existingSeatsForParty(partyName: string, existing: ExistingGuest[]) {
-  const out: DbSeat[] = [];
-  const seen = new Set<string>();
-  for (const guest of existing) {
-    if (!registrationMatchesParty(guest.name, partyName)) continue;
-    for (const link of guest.seats) {
-      if (seen.has(link.seat.id)) continue;
-      seen.add(link.seat.id);
-      out.push(link.seat);
-    }
-  }
-  return out;
-}
-
 function groupParties(tickets: Ticket[]): { parties: Party[]; skipped: Ticket[] } {
   const parties = new Map<string, Party>();
   const order: string[] = [];
@@ -403,7 +358,7 @@ function groupParties(tickets: Ticket[]): { parties: Party[]; skipped: Ticket[] 
 
 export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffer): Promise<AssignPreview> {
   const tickets = await parseAttendeeWorkbook(buffer);
-  const [seats, existing] = await Promise.all([
+  const [seats, existingRegistrations] = await Promise.all([
     prisma.seat.findMany({
       select: {
         id: true,
@@ -418,42 +373,8 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
         y: true,
       },
     }),
-    prisma.registration.findMany({
-      select: {
-        name: true,
-        seats: {
-          select: {
-            seat: {
-              select: {
-                id: true,
-                section: true,
-                block: true,
-                row: true,
-                number: true,
-                type: true,
-                status: true,
-                price: true,
-                x: true,
-                y: true,
-              },
-            },
-          },
-        },
-      },
-    }),
+    prisma.registration.count(),
   ]);
-  const remainingClaims = claimedSeatCounts(existing);
-  for (const ticket of tickets) {
-    if (ticket.error || !ticket.pool) continue;
-    const key = ticket.name.trim().toLowerCase();
-    const have = remainingClaims.get(key) ?? 0;
-    if (have > 0) {
-      ticket.error = "Already has seats.";
-      remainingClaims.set(key, have - 1);
-    }
-  }
-  const existingRegistrations = existing.length;
-  const skippedExisting = tickets.filter((ticket) => ticket.error === "Already has seats.").length;
 
   const remaining = new Map<AssignPool, DbSeat[]>(
     (["platinum", "gold", "silver", "student"] as AssignPool[]).map((pool) => [
@@ -515,12 +436,10 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
     const group = skipped.filter(
       (item) => (partyKeyFor(item) || `__${item.createdAt}|${item.name}|${item.attendeeNumber}`) === key,
     );
-    const groupTickets = group.length ? group : [ticket];
-    const alreadySeated = ticket.error === "Already has seats.";
     rows.push(
       previewRowForTickets(
-        groupTickets,
-        alreadySeated ? existingSeatsForParty(uniqueGuestNames(groupTickets.map((item) => item.name)), existing) : [],
+        group.length ? group : [ticket],
+        [],
         ticket.error ?? "Unknown tier.",
         ticket.pool ? POOL_LABEL[ticket.pool] : ticket.excelTier || "Unknown",
       ),
@@ -532,7 +451,7 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
     return {
       pool,
       label: POOL_LABEL[pool],
-      tickets: tickets.filter((ticket) => ticket.pool === pool && ticket.error !== "Already has seats.").length,
+      tickets: tickets.filter((ticket) => ticket.pool === pool).length,
       assigned,
       remainingSeats: (starting.get(pool) ?? 0) - assigned,
     };
@@ -540,16 +459,14 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
 
   return {
     existingRegistrations,
-    skippedExisting,
+    skippedExisting: 0,
     warning:
-      skippedExisting > 0
-        ? `${skippedExisting} ticket${skippedExisting === 1 ? "" : "s"} already have seats; those registration dates will be updated from the sheet. Extra tickets for the same names will still be assigned.`
-        : existingRegistrations > 0
-          ? `${existingRegistrations} registration${existingRegistrations === 1 ? "" : "s"} already exist. New seats will be taken from what is still available.`
-          : null,
+      existingRegistrations > 0
+        ? `${existingRegistrations} registration${existingRegistrations === 1 ? "" : "s"} already exist. New seats will be taken from what is still available.`
+        : null,
     rows,
     ready: rows.filter((row) => !row.error).reduce((sum, row) => sum + row.seatIds.length, 0),
-    failed: rows.filter((row) => row.error && row.error !== "Already has seats.").length,
+    failed: rows.filter((row) => Boolean(row.error)).length,
     pools,
   };
 }
@@ -557,8 +474,7 @@ export async function previewAssignFromExcel(prisma: PrismaClient, buffer: Buffe
 export async function applyAssignFromExcel(prisma: PrismaClient, buffer: Buffer) {
   const preview = await previewAssignFromExcel(prisma, buffer);
   const ready = preview.rows.filter((row) => !row.error && row.seatIds.length > 0);
-  const alreadySeated = preview.rows.filter((row) => row.error === "Already has seats.");
-  if (ready.length === 0 && alreadySeated.length === 0) return { ...preview, imported: 0 };
+  if (ready.length === 0) return { ...preview, imported: 0 };
 
   await prisma.$transaction(async (tx) => {
     for (const row of ready) {
@@ -581,20 +497,6 @@ export async function applyAssignFromExcel(prisma: PrismaClient, buffer: Buffer)
         where: { id: { in: seatIds } },
         data: { status: "sold", holdUntil: null },
       });
-    }
-
-    if (alreadySeated.length > 0) {
-      const existing = await tx.registration.findMany({ select: { id: true, name: true } });
-      const stamped = new Set<string>();
-      for (const row of alreadySeated) {
-        const next = excelRegisteredAt(row.registeredAt);
-        if (!next) continue;
-        for (const guest of existing) {
-          if (stamped.has(guest.id) || !registrationMatchesParty(guest.name, row.name)) continue;
-          await tx.registration.update({ where: { id: guest.id }, data: { createdAt: next } });
-          stamped.add(guest.id);
-        }
-      }
     }
   });
 
