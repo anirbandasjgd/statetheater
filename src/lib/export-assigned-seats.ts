@@ -1,12 +1,26 @@
 import ExcelJS from "exceljs";
 import type { PrismaClient } from "@prisma/client";
 import { formatRegisteredAt } from "./datetime";
+import { tierFor } from "./pricing";
 import { seatLabel } from "./seats";
 
 function sortSeats<T extends { section: string; x: number; y: number; row: string; number: number }>(seats: T[]) {
   return [...seats].sort(
     (a, b) => a.section.localeCompare(b.section) || a.y - b.y || a.x - b.x || a.row.localeCompare(b.row) || a.number - b.number,
   );
+}
+
+function assignedTierLabel(seats: { section: string; row: string; block: string }[]) {
+  const seen = new Set<string>();
+  const labels: string[] = [];
+  for (const seat of seats) {
+    const section = seat.section === "orchestra" ? "Orchestra" : "Balcony";
+    const label = `${section} ${tierFor(seat.section, seat.row, seat.block)}`;
+    if (seen.has(label)) continue;
+    seen.add(label);
+    labels.push(label);
+  }
+  return labels.join(", ");
 }
 
 export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
@@ -21,6 +35,7 @@ export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
   sheet.columns = [
     { header: "Registered", key: "registered", width: 24 },
     { header: "Participants", key: "name", width: 48 },
+    { header: "Tier", key: "tier", width: 28 },
     { header: "Seats", key: "seats", width: 72 },
   ];
   const header = sheet.getRow(1);
@@ -32,6 +47,7 @@ export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
     const added = sheet.addRow({
       registered: formatRegisteredAt(row.createdAt),
       name: row.name,
+      tier: assignedTierLabel(seats),
       seats: seats
         .map((seat) =>
           seatLabel({
