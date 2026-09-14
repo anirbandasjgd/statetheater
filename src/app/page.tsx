@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { PublicSeat, Section } from "@/lib/seats";
 import { formatPrice, seatLabel, typeLabel } from "@/lib/seats";
-import { TIER_COLORS, sameSeatBand, tierFor, type SeatTier } from "@/lib/pricing";
+import { TIER_COLORS, sameSeatBand, sameTier, tierFor, type SeatTier } from "@/lib/pricing";
 import { SeatMap } from "@/components/SeatMap";
 import { Checkout } from "@/components/Checkout";
 
@@ -15,6 +15,7 @@ export default function HomePage() {
   const [isAdmin, setIsAdmin] = useState(false);
   const [moveMode, setMoveMode] = useState(false);
   const [sourceIds, setSourceIds] = useState<string[]>([]);
+  const [sourceSnapshot, setSourceSnapshot] = useState<PublicSeat[]>([]);
   const [replacementIds, setReplacementIds] = useState<string[]>([]);
   const [moveNote, setMoveNote] = useState<string | null>(null);
   const [moveBusy, setMoveBusy] = useState(false);
@@ -49,10 +50,10 @@ export default function HomePage() {
     [selected, seats],
   );
 
-  const sourceSeats = useMemo(
-    () => sourceIds.map((id) => seats.find((s) => s.id === id)).filter(Boolean) as PublicSeat[],
-    [sourceIds, seats],
-  );
+  const sourceSeats = useMemo(() => {
+    const fromMap = sourceIds.map((id) => seats.find((s) => s.id === id)).filter(Boolean) as PublicSeat[];
+    return fromMap.length === sourceIds.length && fromMap.length > 0 ? fromMap : sourceSnapshot;
+  }, [sourceIds, seats, sourceSnapshot]);
 
   const sourceAnchor = sourceSeats[0] ?? null;
   const sourceTier = sourceAnchor ? tierFor(sourceAnchor.section, sourceAnchor.row, sourceAnchor.block) : null;
@@ -60,6 +61,7 @@ export default function HomePage() {
 
   function clearMove() {
     setSourceIds([]);
+    setSourceSnapshot([]);
     setReplacementIds([]);
     setMoveNote(null);
   }
@@ -86,16 +88,15 @@ export default function HomePage() {
         setMoveNote(`${seat.holderName ?? "This guest"}: ticket already issued`);
         return;
       }
-      const party = seats
-        .filter(
-          (item) =>
-            item.status === "sold" &&
-            item.registrationId &&
-            item.registrationId === seat.registrationId &&
-            sameSeatBand(item, seat),
-        )
-        .map((item) => item.id);
-      setSourceIds(party);
+      const party = seats.filter(
+        (item) =>
+          item.status === "sold" &&
+          item.registrationId &&
+          item.registrationId === seat.registrationId &&
+          sameSeatBand(item, seat),
+      );
+      setSourceIds(party.map((item) => item.id));
+      setSourceSnapshot(party);
       setReplacementIds([]);
       setMoveNote(null);
       return;
@@ -106,8 +107,8 @@ export default function HomePage() {
       setMoveNote("Click a sold seat first.");
       return;
     }
-    if (!sourceAnchor || !sameSeatBand(seat, sourceAnchor)) {
-      setMoveNote(`Pick ${sourceTier} seats in this section.`);
+    if (!sourceAnchor || !sameTier(seat, sourceAnchor)) {
+      setMoveNote(`Pick ${sourceTier} seats. Switch Orchestra/Balcony if you need the other map.`);
       return;
     }
     setReplacementIds((cur) => {
@@ -141,7 +142,8 @@ export default function HomePage() {
     setSection(next);
     setSelected([]);
     setHover(null);
-    clearMove();
+    setReplacementIds([]);
+    if (!moveMode) clearMove();
   }
 
   return (
@@ -192,7 +194,7 @@ export default function HomePage() {
           <div className="mb-2 hidden shrink-0 text-sm text-[#f0d49a]/80 lg:block">
             <p>
               {moveMode
-                ? "Click a sold seat, then the same number of open seats in that tier. Tickets already issued cannot be moved."
+                ? "Click a sold seat, then the same number of open seats in that tier. Switch Orchestra/Balcony to move between those maps. Tickets already issued cannot be moved."
                 : "Click a seat to select it. Click again to release it. You can hold several seats, then register."}
             </p>
             <p className="mt-1 min-h-[1.75rem] overflow-hidden text-ellipsis whitespace-nowrap text-[#f0d49a]">
@@ -205,8 +207,12 @@ export default function HomePage() {
           {moveMode && sourceIds.length > 0 ? (
             <div className="mb-2 flex flex-wrap items-center justify-between gap-2 rounded-lg border border-[#67e8f9]/40 bg-[#083344]/60 px-3 py-2 text-sm text-[#ecfeff]">
               <p>
-                Moving {sourceName} · {sourceIds.length} {sourceAnchor?.section === "orchestra" ? "Orchestra" : "Balcony"}{" "}
-                {sourceTier} · pick {sourceIds.length} ({replacementIds.length} selected)
+                Moving {sourceName} · {sourceIds.length}{" "}
+                {sourceAnchor?.section === "orchestra" ? "Orchestra" : "Balcony"} {sourceTier}
+                {sourceAnchor && sourceAnchor.section !== section
+                  ? ` → pick ${sourceIds.length} ${section === "orchestra" ? "Orchestra" : "Balcony"} ${sourceTier}`
+                  : ` · pick ${sourceIds.length}`}{" "}
+                ({replacementIds.length} selected)
               </p>
               <div className="flex gap-2">
                 <button type="button" className="text-[#a5f3fc] hover:text-white" onClick={clearMove}>

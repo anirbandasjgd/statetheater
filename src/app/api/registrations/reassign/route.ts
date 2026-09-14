@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { ADMIN_COOKIE, verifySessionToken } from "@/lib/auth";
-import { sameSeatBand, tierFor } from "@/lib/pricing";
+import { sameSeatBand, sameTier, tierFor } from "@/lib/pricing";
 
 export async function POST(req: NextRequest) {
   const ok = await verifySessionToken(req.cookies.get(ADMIN_COOKIE)?.value);
@@ -59,9 +59,9 @@ export async function POST(req: NextRequest) {
         if (seat.status !== "available" || seat.type === "hold") {
           throw Object.assign(new Error(`${seat.row}-${seat.number} is no longer available.`), { status: 409 });
         }
-        if (!sameSeatBand(seat, from)) {
+        if (!sameTier(seat, from)) {
           throw Object.assign(
-            new Error("Replacement seats must be in the same section and tier."),
+            new Error("Replacement seats must be in the same tier."),
             { status: 400 },
           );
         }
