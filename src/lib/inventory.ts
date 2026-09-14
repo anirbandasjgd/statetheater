@@ -1,3 +1,4 @@
+import { isGeneralExcelTier } from "./attendee-tiers";
 import { priceFor, tierFor, type SeatTier } from "./pricing";
 
 export type InventorySectionId = "orchestra" | "balcony";
@@ -13,6 +14,8 @@ export type InventoryTierRow = {
   adaTotal: number;
   companionSelected: number;
   companionTotal: number;
+  generalSelected: number;
+  generalTotal: number;
 };
 
 type Bucket = {
@@ -23,6 +26,8 @@ type Bucket = {
   adaTotal: number;
   companionSelected: number;
   companionTotal: number;
+  generalSelected: number;
+  generalTotal: number;
 };
 
 function emptyBucket(): Bucket {
@@ -34,6 +39,8 @@ function emptyBucket(): Bucket {
     adaTotal: 0,
     companionSelected: 0,
     companionTotal: 0,
+    generalSelected: 0,
+    generalTotal: 0,
   };
 }
 
@@ -77,7 +84,15 @@ function bucketKey(section: string, tier: string) {
 }
 
 export function summarizeInventory(
-  seats: { section: string; row: string; block: string; status: string; price: number; type: string }[],
+  seats: {
+    section: string;
+    row: string;
+    block: string;
+    status: string;
+    price: number;
+    type: string;
+    excelTier?: string | null;
+  }[],
 ): InventorySection[] {
   const counts = new Map<string, Bucket>();
 
@@ -89,11 +104,13 @@ export function summarizeInventory(
     cur.total += 1;
     if (seat.type === "ada") cur.adaTotal += 1;
     if (seat.type === "companion") cur.companionTotal += 1;
+    if (tier === "Student") cur.generalTotal += 1;
     if (seat.status === "sold") {
       cur.selected += 1;
       cur.revenue += seat.price;
       if (seat.type === "ada") cur.adaSelected += 1;
       if (seat.type === "companion") cur.companionSelected += 1;
+      if (tier === "Student" && isGeneralExcelTier(seat.excelTier ?? "")) cur.generalSelected += 1;
     }
     counts.set(key, cur);
   }
@@ -112,6 +129,8 @@ export function summarizeInventory(
         adaTotal: cur.adaTotal,
         companionSelected: cur.companionSelected,
         companionTotal: cur.companionTotal,
+        generalSelected: cur.generalSelected,
+        generalTotal: cur.generalTotal,
       };
     });
     return {

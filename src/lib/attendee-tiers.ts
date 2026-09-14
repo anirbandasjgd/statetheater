@@ -7,10 +7,15 @@ export const POOL_LABEL: Record<AssignPool, string> = {
   student: "Balcony Student",
 };
 
+export function isGeneralExcelTier(raw: string) {
+  const text = raw.trim().toLowerCase().replace(/\s+/g, " ");
+  return text.includes("general") || /\bpl\s*4\b/.test(text) || text === "pl4";
+}
+
 export function mapExcelTier(raw: string): AssignPool | null {
   const text = raw.trim().toLowerCase().replace(/\s+/g, " ");
   if (!text) return null;
-  if (text.includes("student")) return "student";
+  if (text.includes("student") || isGeneralExcelTier(raw)) return "student";
   if (text.includes("platinum") || /\bpl\s*1\b/.test(text) || text === "pl1") return "platinum";
   if (text.includes("silver") || /\bpl\s*3\b/.test(text) || text === "pl3") return "silver";
   if (text.includes("gold") || /\bpl\s*2\b/.test(text) || text === "pl2") return "gold";

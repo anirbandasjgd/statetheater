@@ -45,7 +45,8 @@ export function AssignFromExcel({ onAssigned }: { onAssigned: () => Promise<void
             Upload an Excel file with <code className="text-[#f0d49a]">Created Date</code>,{" "}
             <code className="text-[#f0d49a]">Attendee Number</code>,{" "}
             <code className="text-[#f0d49a]">Account Name</code>, and{" "}
-            <code className="text-[#f0d49a]">Tier Name</code>. Blank dates continue the party above.
+            <code className="text-[#f0d49a]">Tier Name</code>. General (PL4) seats in Balcony Student.
+            Blank dates continue the party above.
             People who share a timestamp become one registration with adjacent seats, even when the
             same name appears more than once. Names already on Assigned seats are not skipped.
           </p>

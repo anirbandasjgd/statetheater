@@ -490,6 +490,7 @@ export async function applyAssignFromExcel(prisma: PrismaClient, buffer: Buffer)
           email: PLACEHOLDER_EMAIL,
           phone: PLACEHOLDER_PHONE,
           createdAt: excelRegisteredAt(row.registeredAt) ?? new Date(),
+          excelTier: row.excelTier,
           seats: { create: seatIds.map((seatId) => ({ seatId })) },
         },
       });

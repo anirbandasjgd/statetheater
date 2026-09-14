@@ -15,12 +15,30 @@ export async function GET(req: NextRequest) {
       include: { seats: { include: { seat: true } } },
     }),
     prisma.seat.findMany({
-      select: { section: true, row: true, block: true, status: true, price: true, type: true },
+      select: {
+        section: true,
+        row: true,
+        block: true,
+        status: true,
+        price: true,
+        type: true,
+        registrations: { select: { registration: { select: { excelTier: true } } } },
+      },
     }),
   ]);
 
   return NextResponse.json({
-    inventory: summarizeInventory(seats),
+    inventory: summarizeInventory(
+      seats.map((seat) => ({
+        section: seat.section,
+        row: seat.row,
+        block: seat.block,
+        status: seat.status,
+        price: seat.price,
+        type: seat.type,
+        excelTier: seat.registrations[0]?.registration.excelTier ?? "",
+      })),
+    ),
     registrations: registrations.map((r) => ({
       id: r.id,
       name: r.name,

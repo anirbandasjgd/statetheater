@@ -53,7 +53,7 @@ function TierRow({ row }: { row: InventoryTierRow }) {
         </div>
       </div>
       <Meter selected={row.selected} total={row.total} />
-      {row.adaTotal > 0 || row.companionTotal > 0 ? (
+      {row.adaTotal > 0 || row.companionTotal > 0 || row.generalTotal > 0 ? (
         <p className="mt-1.5 flex flex-wrap gap-x-4 gap-y-0.5 font-sans text-[11px]">
           {row.adaTotal > 0 ? (
             <TypeSplit label="ADA" selected={row.adaSelected} total={row.adaTotal} color="#dc2626" />
@@ -65,6 +65,9 @@ function TierRow({ row }: { row: InventoryTierRow }) {
               total={row.companionTotal}
               color="#22c55e"
             />
+          ) : null}
+          {row.generalTotal > 0 ? (
+            <TypeSplit label="General" selected={row.generalSelected} total={row.generalTotal} color="#6ee7b7" />
           ) : null}
           {row.tier === "Platinum" || row.tier === "Gold" ? (
             <span className="text-[#f0d49a]/45">ADA / companion $40</span>
