@@ -309,13 +309,41 @@ function PriceLegend({ section }: { section: Section }) {
 }
 
 function Legend({ moveMode }: { moveMode?: boolean }) {
-  const items = [
-    { label: "Selected", className: "border-[#d4a24a] bg-[#d4a24a]" },
-    { label: "Taken", className: "border-[#d4a24a] bg-[#d4a24a] opacity-80" },
+  const pickedSwatch = {
+    borderColor: "#f8f1e3",
+    backgroundColor: TIER_COLORS.Gold.selectedFill,
+  };
+  const taken = TIER_COLORS.Platinum;
+  const takenSwatch = {
+    borderColor: taken.border,
+    backgroundColor: taken.fill,
+    backgroundImage: `linear-gradient(135deg, transparent 40%, ${taken.border} 40%, ${taken.border} 60%, transparent 60%)`,
+  };
+  const issuedSwatch = {
+    borderColor: taken.border,
+    backgroundColor: taken.fill,
+    backgroundImage: `${takenSwatch.backgroundImage}, linear-gradient(45deg, transparent 40%, ${taken.border} 40%, ${taken.border} 60%, transparent 60%)`,
+  };
+  const items: {
+    label: string;
+    className: string;
+    style?: { borderColor: string; backgroundColor: string; backgroundImage?: string; boxShadow?: string };
+  }[] = [
+    { label: "Selected", className: "border-2", style: pickedSwatch },
+    { label: "Taken", className: "border-2", style: takenSwatch },
+    { label: "Issued", className: "border-2", style: issuedSwatch },
     ...(moveMode
       ? [
-          { label: "Moving", className: "border-[#67e8f9] bg-[#155e75]" },
-          { label: "Replacement", className: "border-[#f8f1e3] bg-[#d4a24a]" },
+          {
+            label: "Moving",
+            className: "border-2",
+            style: {
+              borderColor: "#67e8f9",
+              backgroundColor: "#155e75",
+              boxShadow: "0 0 0 2px #67e8f9",
+            },
+          },
+          { label: "Replacement", className: "border-2", style: pickedSwatch },
         ]
       : []),
     { label: "Kill", className: "border-black bg-[#141414]" },
@@ -328,7 +356,7 @@ function Legend({ moveMode }: { moveMode?: boolean }) {
     <ul className="mt-2 hidden shrink-0 flex-wrap gap-4 text-xs text-[#f0d49a]/70 lg:mt-4 lg:flex">
       {items.map((item) => (
         <li key={item.label} className="flex items-center gap-2">
-          <span className={`inline-block h-3 w-3 rounded-full border ${item.className}`} />
+          <span className={`inline-block h-3 w-3 rounded-full border ${item.className}`} style={item.style} />
           {item.label}
         </li>
       ))}

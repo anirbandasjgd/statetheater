@@ -124,7 +124,7 @@ export function SeatMap({
               style={{
                 gridColumn: (layout.colOf.get(seat.x) ?? 1) + 1,
                 gridRow: layout.rowOf.get(seat.y) ?? 1,
-                ...seatTint(seat, isSelected || isSource || isReplacement),
+                ...seatTint(seat, isSelected || isReplacement, isSource),
               }}
               onMouseEnter={() => onHover(seat)}
               onMouseLeave={() => onHover(null)}
@@ -161,11 +161,11 @@ function seatClass(
     return `${base} cursor-pointer border-2 border-[#67e8f9] bg-[#155e75] text-[#ecfeff]`;
   }
   if (flags.isReplacement) {
-    return `${base} cursor-pointer border-2 border-[#f8f1e3] bg-[#d4a24a] text-[#1a100c]`;
+    return `${base} cursor-pointer border-2 border-[#f8f1e3]`;
   }
   if (seat.status === "sold") {
     const pointer = flags.moveMode ? "cursor-pointer" : "cursor-not-allowed";
-    return `${base} ${pointer} border-[#f0d49a] bg-[#d4a24a] text-[#1a100c] opacity-80`;
+    return `${base} ${pointer} border-2`;
   }
   if (seat.status === "blocked") {
     if (seat.type === "hold") {
@@ -175,25 +175,48 @@ function seatClass(
   }
   if (isSelected) {
     if (seat.type === "ada") {
-      return `${base} cursor-pointer border-2 border-[#dc2626] bg-[#d4a24a] text-[#1a100c]`;
+      return `${base} cursor-pointer border-2 border-[#dc2626]`;
     }
     if (seat.type === "companion") {
-      return `${base} cursor-pointer border-2 border-[#22c55e] bg-[#d4a24a] text-[#1a100c]`;
+      return `${base} cursor-pointer border-2 border-[#22c55e]`;
     }
-    return `${base} cursor-pointer border-[#f0d49a] bg-[#d4a24a] text-[#1a100c]`;
+    return `${base} cursor-pointer border-2 border-[#f8f1e3]`;
   }
   const dashed = seat.type === "transfer" ? "border-dashed" : "";
   const thick = seat.type === "ada" || seat.type === "companion" ? "border-2" : "";
   return `${base} ${thick} ${dashed} cursor-pointer hover:brightness-125`;
 }
 
-function seatTint(seat: PublicSeat, isSelected: boolean): CSSProperties | undefined {
-  if (seat.status === "sold" || seat.status === "blocked" || isSelected) return undefined;
+function takenTint(colors: { border: string; fill: string; text: string }, delivered: boolean): CSSProperties {
+  const slash = `linear-gradient(135deg, transparent 40%, ${colors.border} 40%, ${colors.border} 60%, transparent 60%)`;
+  const cross = `linear-gradient(45deg, transparent 40%, ${colors.border} 40%, ${colors.border} 60%, transparent 60%)`;
+  return {
+    borderColor: colors.border,
+    color: colors.text,
+    backgroundColor: colors.fill,
+    backgroundImage: delivered ? `${slash}, ${cross}` : slash,
+  };
+}
+
+function seatTint(seat: PublicSeat, isPicked: boolean, isSource = false): CSSProperties | undefined {
+  if (isSource) {
+    return {
+      borderColor: "#67e8f9",
+      backgroundColor: "#155e75",
+      backgroundImage: "none",
+      color: "#ecfeff",
+      boxShadow: "0 0 0 2px #67e8f9, 0 0 10px #22d3ee",
+      zIndex: 1,
+    };
+  }
+  if (seat.status === "blocked") return undefined;
   const colors = TIER_COLORS[tierFor(seat.section, seat.row, seat.block)];
-  const borderColor = seat.type === "ada" ? "#dc2626" : seat.type === "companion" ? "#22c55e" : colors.border;
+  if (seat.status === "sold") return takenTint(colors, Boolean(seat.ticketDelivered));
+  const borderColor =
+    seat.type === "ada" ? "#dc2626" : seat.type === "companion" ? "#22c55e" : isPicked ? "#f8f1e3" : colors.border;
   return {
     borderColor,
-    backgroundColor: colors.fill,
-    color: colors.text,
+    backgroundColor: isPicked ? colors.selectedFill : colors.fill,
+    color: isPicked ? colors.selectedText : colors.text,
   };
 }

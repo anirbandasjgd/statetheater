@@ -29,11 +29,11 @@ export async function GET(req: NextRequest) {
         x: s.x,
         y: s.y,
         status: s.status === "held" && s.holdUntil && s.holdUntil < new Date() ? "available" : s.status,
+        ticketDelivered: s.registrations[0]?.registration?.ticketDelivered ?? false,
         ...(admin
           ? {
               holderName: holder?.name ?? null,
               registrationId: holder?.id ?? null,
-              ticketDelivered: holder?.ticketDelivered ?? false,
             }
           : {}),
       };
