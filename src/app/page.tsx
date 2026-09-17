@@ -3,11 +3,24 @@
 import { useEffect, useMemo, useState } from "react";
 import type { PublicSeat, Section } from "@/lib/seats";
 import { formatPrice, seatLabel, typeLabel } from "@/lib/seats";
-import { TIER_COLORS, sameSeatBand, sameTier, tierFor, type SeatTier } from "@/lib/pricing";
+import { TIER_COLORS, canMoveInto, sameSeatBand, tierFor, type SeatTier } from "@/lib/pricing";
 import { SeatMap } from "@/components/SeatMap";
 import { Checkout } from "@/components/Checkout";
 
 type SeatsResponse = { admin?: boolean; seats?: PublicSeat[] } | PublicSeat[];
+
+function canPickMoveReplacement(
+  seat: PublicSeat,
+  source: PublicSeat,
+  replacementIds: string[],
+  seats: PublicSeat[],
+) {
+  if (!canMoveInto(source, seat)) return false;
+  if (replacementIds.length === 0) return true;
+  const first = seats.find((item) => item.id === replacementIds[0]);
+  if (!first) return true;
+  return tierFor(seat.section, seat.row, seat.block) === tierFor(first.section, first.row, first.block);
+}
 
 export default function HomePage() {
   const [section, setSection] = useState<Section>("orchestra");
@@ -58,6 +71,7 @@ export default function HomePage() {
   const sourceAnchor = sourceSeats[0] ?? null;
   const sourceTier = sourceAnchor ? tierFor(sourceAnchor.section, sourceAnchor.row, sourceAnchor.block) : null;
   const sourceName = sourceAnchor?.holderName ?? "Guest";
+  const destHint = sourceTier === "Box" ? "any house" : `${sourceTier} or Box`;
 
   function clearMove() {
     setSourceIds([]);
@@ -107,8 +121,12 @@ export default function HomePage() {
       setMoveNote("Click a sold seat first.");
       return;
     }
-    if (!sourceAnchor || !sameTier(seat, sourceAnchor)) {
-      setMoveNote(`Pick ${sourceTier} seats. Switch Orchestra/Balcony if you need the other map.`);
+    if (!sourceAnchor || !canPickMoveReplacement(seat, sourceAnchor, replacementIds, seats)) {
+      setMoveNote(
+        sourceTier === "Box"
+          ? "Pick any open house. Switch Orchestra/Balcony if you need the other map."
+          : `Pick ${destHint} seats. Switch Orchestra/Balcony if you need the other map.`,
+      );
       return;
     }
     setReplacementIds((cur) => {
@@ -194,7 +212,7 @@ export default function HomePage() {
           <div className="mb-2 hidden shrink-0 text-sm text-[#f0d49a]/80 lg:block">
             <p>
               {moveMode
-                ? "Click a sold seat, then the same number of open seats in that tier. Switch Orchestra/Balcony to move between those maps. Tickets already issued cannot be moved."
+                ? "Click a sold seat, then the same number of open seats in that house, or Box. From Box you can pick any house. Switch Orchestra/Balcony to move between those maps. Tickets already issued cannot be moved."
                 : "Click a seat to select it. Click again to release it. You can hold several seats, then register."}
             </p>
             <p className="mt-1 min-h-[1.75rem] overflow-hidden text-ellipsis whitespace-nowrap text-[#f0d49a]">
@@ -210,8 +228,10 @@ export default function HomePage() {
                 Moving {sourceName} · {sourceIds.length}{" "}
                 {sourceAnchor?.section === "orchestra" ? "Orchestra" : "Balcony"} {sourceTier}
                 {sourceAnchor && sourceAnchor.section !== section
-                  ? ` → pick ${sourceIds.length} ${section === "orchestra" ? "Orchestra" : "Balcony"} ${sourceTier}`
-                  : ` · pick ${sourceIds.length}`}{" "}
+                  ? sourceTier === "Box"
+                    ? ` → pick ${sourceIds.length} ${section === "orchestra" ? "Orchestra" : "Balcony"} seats in any house`
+                    : ` → pick ${sourceIds.length} ${section === "orchestra" ? "Orchestra" : "Balcony"} ${destHint}`
+                  : ` · pick ${sourceIds.length} (${destHint})`}{" "}
                 ({replacementIds.length} selected)
               </p>
               <div className="flex gap-2">

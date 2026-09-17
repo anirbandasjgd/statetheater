@@ -61,3 +61,13 @@ export function sameSeatBand(
 ) {
   return a.section === b.section && sameTier(a, b);
 }
+
+export function canMoveInto(
+  from: { section: string; row: string; block: string },
+  into: { section: string; row: string; block: string },
+) {
+  if (sameTier(from, into)) return true;
+  const fromTier = tierFor(from.section, from.row, from.block);
+  const destTier = tierFor(into.section, into.row, into.block);
+  return fromTier === "Box" || destTier === "Box";
+}
