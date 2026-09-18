@@ -10,7 +10,7 @@ export async function GET(req: NextRequest) {
     orderBy: [{ y: "asc" }, { x: "asc" }],
     include: {
       registrations: {
-        include: { registration: { select: { id: true, name: true, ticketDelivered: true } } },
+        include: { registration: { select: { id: true, name: true, ticketDelivered: true, isDiv: true } } },
       },
     },
   });
@@ -30,6 +30,7 @@ export async function GET(req: NextRequest) {
         y: s.y,
         status: s.status === "held" && s.holdUntil && s.holdUntil < new Date() ? "available" : s.status,
         ticketDelivered: s.registrations[0]?.registration?.ticketDelivered ?? false,
+        isDiv: s.registrations[0]?.registration?.isDiv ?? false,
         ...(admin
           ? {
               holderName: holder?.name ?? null,

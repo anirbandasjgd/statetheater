@@ -38,7 +38,7 @@ SKIP = {
 
 def price_for(section: str, row: str, block: str = "") -> int:
     if section == "balcony" and block in {"boxLeft", "boxRight", "vipBoxLeft", "vipBoxRight"}:
-        return 1000
+        return 125
     if section == "orchestra":
         if row in {"PA", "PB", "A", "B", "C", "D"}:
             return 0

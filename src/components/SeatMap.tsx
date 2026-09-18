@@ -112,14 +112,15 @@ export function SeatMap({
           const suffix = seat.type === "companion" ? "c" : seat.type === "transfer" ? "t" : "";
           const guest = seat.holderName ? ` · ${seat.holderName}` : "";
           const issued = seat.ticketDelivered ? " · ticket issued" : "";
+          const divMark = seat.isDiv ? " · Div" : "";
           return (
             <button
               key={seat.id}
               type="button"
               disabled={disabled}
               aria-pressed={isSelected || isSource || isReplacement}
-              aria-label={`${seatLabel(seat)}${seat.type === "ada" ? ", ADA" : ""}${seat.type === "hold" ? ", STNJ hold" : ""}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}${guest}${issued}`}
-              title={`${seatLabel(seat)} · ${tierFor(seat.section, seat.row, seat.block)} · ${formatPrice(seat.price)}${guest}${issued}`}
+              aria-label={`${seatLabel(seat)}${seat.type === "ada" ? ", ADA" : ""}${seat.type === "hold" ? ", STNJ hold" : ""}, ${formatPrice(seat.price)}${taken ? ", unavailable" : ""}${guest}${issued}${divMark}`}
+              title={`${seatLabel(seat)} · ${tierFor(seat.section, seat.row, seat.block)} · ${formatPrice(seat.price)}${guest}${issued}${divMark}`}
               className={seatClass(seat, isSelected, { moveMode, isSource, isReplacement })}
               style={{
                 gridColumn: (layout.colOf.get(seat.x) ?? 1) + 1,
@@ -135,6 +136,14 @@ export function SeatMap({
             >
               {seat.number}
               {suffix}
+              {seat.isDiv ? (
+                <span
+                  className="absolute right-0 top-0 text-[8px] font-bold leading-none text-[#f5d0fe] drop-shadow-[0_0_3px_#86198f]"
+                  aria-hidden
+                >
+                  D
+                </span>
+              ) : null}
             </button>
           );
         })}
@@ -156,7 +165,7 @@ function seatClass(
   flags: { moveMode: boolean; isSource: boolean; isReplacement: boolean },
 ) {
   const base =
-    "flex items-center justify-center rounded-[3px] text-[10px] leading-none tabular-nums border outline-none [scroll-margin:0]";
+    "relative flex items-center justify-center overflow-visible rounded-[3px] text-[10px] leading-none tabular-nums border outline-none [scroll-margin:0]";
   if (flags.isSource) {
     return `${base} cursor-pointer border-2 border-[#67e8f9] bg-[#155e75] text-[#ecfeff]`;
   }
@@ -211,7 +220,18 @@ function seatTint(seat: PublicSeat, isPicked: boolean, isSource = false): CSSPro
   }
   if (seat.status === "blocked") return undefined;
   const colors = TIER_COLORS[tierFor(seat.section, seat.row, seat.block)];
-  if (seat.status === "sold") return takenTint(colors, Boolean(seat.ticketDelivered));
+  if (seat.status === "sold") {
+    const tint = takenTint(colors, Boolean(seat.ticketDelivered));
+    if (seat.isDiv) {
+      return {
+        ...tint,
+        borderColor: "#e879f9",
+        boxShadow: "0 0 0 2px #c026d3, 0 0 8px #e879f9",
+        zIndex: 1,
+      };
+    }
+    return tint;
+  }
   const borderColor =
     seat.type === "ada" ? "#dc2626" : seat.type === "companion" ? "#22c55e" : isPicked ? "#f8f1e3" : colors.border;
   return {

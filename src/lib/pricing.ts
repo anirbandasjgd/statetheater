@@ -40,7 +40,7 @@ export function tierFor(section: string, row: string, block = ""): SeatTier {
 export function priceFor(section: string, row: string, block = "", type = ""): number {
   const tier = tierFor(section, row, block);
   if ((type === "ada" || type === "companion") && (tier === "Platinum" || tier === "Gold")) return 40;
-  if (tier === "Box") return 1000;
+  if (tier === "Box") return 125;
   if (tier === "VIP") return 0;
   if (tier === "Platinum") return 125;
   if (tier === "Gold") return 75;
@@ -62,6 +62,10 @@ export function sameSeatBand(
   return a.section === b.section && sameTier(a, b);
 }
 
+export function isAnyHouseTier(tier: SeatTier) {
+  return tier === "Box" || tier === "VIP";
+}
+
 export function canMoveInto(
   from: { section: string; row: string; block: string },
   into: { section: string; row: string; block: string },
@@ -69,5 +73,5 @@ export function canMoveInto(
   if (sameTier(from, into)) return true;
   const fromTier = tierFor(from.section, from.row, from.block);
   const destTier = tierFor(into.section, into.row, into.block);
-  return fromTier === "Box" || destTier === "Box";
+  return isAnyHouseTier(fromTier) || isAnyHouseTier(destTier);
 }

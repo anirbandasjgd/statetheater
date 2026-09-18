@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { ADMIN_COOKIE, verifySessionToken } from "@/lib/auth";
-import { canMoveInto, sameSeatBand, tierFor } from "@/lib/pricing";
+import { canMoveInto, isAnyHouseTier, sameSeatBand, tierFor } from "@/lib/pricing";
 
 export async function POST(req: NextRequest) {
   const ok = await verifySessionToken(req.cookies.get(ADMIN_COOKIE)?.value);
@@ -60,12 +60,12 @@ export async function POST(req: NextRequest) {
           throw Object.assign(new Error(`${seat.row}-${seat.number} is no longer available.`), { status: 409 });
         }
         if (!canMoveInto(from, seat)) {
-          const fromIsBox = tierFor(from.section, from.row, from.block) === "Box";
+          const fromTier = tierFor(from.section, from.row, from.block);
           throw Object.assign(
             new Error(
-              fromIsBox
-                ? "Box seats can move into any open house."
-                : "Replacement seats must be in the same house, or Box.",
+              isAnyHouseTier(fromTier)
+                ? `${fromTier} seats can move into any open house.`
+                : "Replacement seats must be in the same house, Box, or VIP.",
             ),
             { status: 400 },
           );

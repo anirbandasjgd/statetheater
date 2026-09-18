@@ -45,6 +45,7 @@ export async function GET(req: NextRequest) {
       email: r.email,
       phone: r.phone,
       ticketDelivered: r.ticketDelivered,
+      isDiv: r.isDiv,
       createdAt: r.createdAt,
       total: r.seats.reduce((sum, rs) => sum + rs.seat.price, 0),
       seats: r.seats.map((rs) => ({
@@ -68,7 +69,20 @@ export async function PATCH(req: NextRequest) {
 
   const body = await req.json().catch(() => null);
   const id = typeof body?.id === "string" ? body.id : "";
-  if (!id || body?.ticketDelivered !== true) {
+  if (!id) {
+    return NextResponse.json({ error: "Missing registration id." }, { status: 400 });
+  }
+
+  if (typeof body?.isDiv === "boolean") {
+    const updated = await prisma.registration.update({
+      where: { id },
+      data: { isDiv: body.isDiv },
+      select: { id: true, isDiv: true },
+    });
+    return NextResponse.json(updated);
+  }
+
+  if (body?.ticketDelivered !== true) {
     return NextResponse.json(
       { error: "Registrations can only mark a ticket delivered. Undo that on the Database page." },
       { status: 400 },

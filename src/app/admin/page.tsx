@@ -15,6 +15,7 @@ type Row = {
   email: string;
   phone: string;
   ticketDelivered: boolean;
+  isDiv: boolean;
   createdAt: string;
   total: number;
   seats: {
@@ -68,6 +69,19 @@ export default function AdminPage() {
     if (!res.ok) {
       setRows((cur) => cur.map((row) => (row.id === id ? { ...row, ticketDelivered: false } : row)));
       setError("Could not mark that ticket as delivered.");
+    }
+  }
+
+  async function setDiv(id: string, next: boolean) {
+    setRows((cur) => cur.map((row) => (row.id === id ? { ...row, isDiv: next } : row)));
+    const res = await fetch("/api/registrations", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, isDiv: next }),
+    });
+    if (!res.ok) {
+      setRows((cur) => cur.map((row) => (row.id === id ? { ...row, isDiv: !next } : row)));
+      setError("Could not update Div.");
     }
   }
 
@@ -142,7 +156,7 @@ export default function AdminPage() {
               </p>
             ) : null}
             <div className="mt-3 overflow-x-auto rounded-xl border border-[#3a2a22]">
-              <table className="w-full min-w-[840px] text-left text-sm">
+              <table className="w-full min-w-[920px] text-left text-sm">
                 <thead className="bg-[#1d1412] text-[#d4a24a]">
                   <tr>
                     <th className="px-4 py-3 font-medium">Guest</th>
@@ -151,12 +165,13 @@ export default function AdminPage() {
                     <th className="px-4 py-3 font-medium">Seats</th>
                     <th className="px-4 py-3 font-medium">Total</th>
                     <th className="px-4 py-3 font-medium">Delivered</th>
+                    <th className="px-4 py-3 font-medium">Div</th>
                   </tr>
                 </thead>
                 <tbody>
                   {visible.length === 0 ? (
                     <tr>
-                      <td colSpan={6} className="px-4 py-8 text-center text-[#f0d49a]/60">
+                      <td colSpan={7} className="px-4 py-8 text-center text-[#f0d49a]/60">
                         No registrations match that name or email.
                       </td>
                     </tr>
@@ -191,6 +206,16 @@ export default function AdminPage() {
                           locked={Boolean(row.ticketDelivered)}
                           onChange={(next) => {
                             if (next) void markDelivered(row.id);
+                          }}
+                        />
+                      </td>
+                      <td className="px-4 py-3 align-top">
+                        <DeliveredCheckbox
+                          name={row.name}
+                          label="Div"
+                          checked={Boolean(row.isDiv)}
+                          onChange={(next) => {
+                            void setDiv(row.id, next);
                           }}
                         />
                       </td>

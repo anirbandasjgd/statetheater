@@ -22,6 +22,7 @@ type RegistrationRow = {
   email: string;
   phone: string;
   ticketDelivered: boolean;
+  isDiv: boolean;
   createdAt: string;
   seatIds: string[];
   seatLabels: string[];
@@ -344,6 +345,7 @@ function RegistrationTable({
           <th className="px-3 py-3 font-medium">Contact</th>
           <th className="px-3 py-3 font-medium">Seats</th>
           <th className="px-3 py-3 font-medium">Delivered</th>
+          <th className="px-3 py-3 font-medium">Div</th>
           <th className="px-3 py-3 font-medium" />
         </tr>
       </thead>
@@ -369,11 +371,13 @@ function RegistrationEditor({
   const [email, setEmail] = useState(row.email);
   const [phone, setPhone] = useState(row.phone);
   const [ticketDelivered, setTicketDelivered] = useState(row.ticketDelivered);
+  const [isDiv, setIsDiv] = useState(row.isDiv);
   useEffect(() => {
     setName(row.name);
     setEmail(row.email);
     setPhone(row.phone);
     setTicketDelivered(row.ticketDelivered);
+    setIsDiv(row.isDiv);
   }, [row]);
   return (
     <tr className="border-t border-[#3a2a22]">
@@ -403,10 +407,13 @@ function RegistrationEditor({
         <DeliveredCheckbox name={row.name} checked={ticketDelivered} onChange={setTicketDelivered} />
       </td>
       <td className="px-3 py-2 align-top">
+        <DeliveredCheckbox name={row.name} label="Div" checked={isDiv} onChange={setIsDiv} />
+      </td>
+      <td className="px-3 py-2 align-top">
         <button
           type="button"
           className="block text-[#d4a24a]"
-          onClick={() => onSave(row.id, { name, email, phone, ticketDelivered })}
+          onClick={() => onSave(row.id, { name, email, phone, ticketDelivered, isDiv })}
         >
           Save
         </button>

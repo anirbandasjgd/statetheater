@@ -3,11 +3,13 @@ export function DeliveredCheckbox({
   checked,
   locked = false,
   onChange,
+  label = "Ticket delivered",
 }: {
   name: string;
   checked: boolean;
   locked?: boolean;
   onChange?: (next: boolean) => void;
+  label?: string;
 }) {
   return (
     <span className="relative inline-flex h-[18px] w-[18px] items-center justify-center">
@@ -15,7 +17,7 @@ export function DeliveredCheckbox({
         type="checkbox"
         checked={checked}
         disabled={locked}
-        aria-label={`Ticket delivered for ${name}`}
+        aria-label={`${label} for ${name}`}
         title={locked ? "Undo this on the Database page" : undefined}
         onChange={(e) => {
           if (locked) return;

@@ -15,6 +15,7 @@ export type PublicSeat = {
   holderName?: string | null;
   registrationId?: string | null;
   ticketDelivered?: boolean;
+  isDiv?: boolean;
 };
 
 export const BLOCK_LABEL: Record<string, string> = {

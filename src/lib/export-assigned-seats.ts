@@ -36,6 +36,7 @@ export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
     { header: "Registered", key: "registered", width: 24 },
     { header: "Participants", key: "name", width: 48 },
     { header: "Tier", key: "tier", width: 28 },
+    { header: "Number of seats", key: "seatCount", width: 16 },
     { header: "Seats", key: "seats", width: 72 },
   ];
   const header = sheet.getRow(1);
@@ -48,6 +49,7 @@ export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
       registered: formatRegisteredAt(row.createdAt),
       name: row.name,
       tier: assignedTierLabel(seats),
+      seatCount: seats.length,
       seats: seats
         .map((seat) =>
           seatLabel({
@@ -60,6 +62,7 @@ export async function buildAssignedSeatsWorkbook(prisma: PrismaClient) {
         .join(", "),
     });
     added.getCell(1).alignment = { vertical: "middle" };
+    added.getCell("seatCount").alignment = { horizontal: "center", vertical: "middle" };
   }
 
   sheet.views = [{ state: "frozen", ySplit: 1 }];

@@ -30,6 +30,7 @@ model Registration {
   email           String
   phone           String
   ticketDelivered Boolean  @default(false)
+  isDiv           Boolean  @default(false)
   excelTier       String   @default("")
   createdAt       DateTime @default(now())
   seats           RegistrationSeat[]
